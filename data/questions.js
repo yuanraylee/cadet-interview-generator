@@ -1,0 +1,27 @@
+/* Additional aviation and interview question bank (Q4 / Q5). */
+const DEFAULT_BANK = [
+ ['What does CRM stand for, and why is it important in airline operations?','Crew Resource Management; using people, equipment, procedures and information effectively to support safe flight operations.','CRM'],
+ ['If a captain disagrees with your concern about aircraft safety, what would you do?','Open-ended: communicate respectfully and clearly, support the concern with observations, follow SOP and escalation rules, and prioritize safety.','Scenario'],
+ ['Why do pilots use sterile cockpit procedures?','To reduce nonessential activities and communication during critical phases, protecting concentration on flight-related duties.','SOP'],
+ ['What is the difference between VX and VY?','VX is best angle-of-climb speed; VY is best rate-of-climb speed. Use the relevant published procedure and aircraft performance data.','Performance'],
+ ['What is a wingtip vortex, and why is it relevant to safety?','A rotating wake formed by a lifting wing that may cause hazardous wake turbulence for following aircraft.','Aerodynamics'],
+ ['What is the purpose of a flight checklist?','To standardize and verify critical tasks and reduce omissions, while supporting crew coordination.','SOP'],
+ ['How do a SID and a STAR differ?','SID is a Standard Instrument Departure; STAR is a Standard Terminal Arrival Route.','Navigation'],
+ ['What is the difference between a localizer and a glide slope?','A localizer provides lateral course guidance; glide slope provides vertical guidance in an ILS.','Instruments'],
+ ['Explain the difference between indicated airspeed and ground speed.','Indicated airspeed comes from the pitot-static system; ground speed is the speed of the aircraft relative to the ground.','Performance'],
+ ['What is the main purpose of the aircraft center-of-gravity limits?','To maintain approved balance, handling and stability characteristics across relevant loading conditions.','Weight and Balance'],
+ ['How can a cold front affect flying conditions?','Potential wind shifts, temperature changes, clouds, precipitation, turbulence and thunderstorms depending on the environment.','Weather'],
+ ['What is adverse yaw?','A yaw opposite the intended roll due mainly to unequal drag from aileron deflection; coordinated rudder helps counteract it.','Aerodynamics'],
+ ['What would you do if you discovered a mistake after completing a checklist?','Open-ended: inform the appropriate crew member, assess impact, correct using SOP, and learn from the event.','Scenario'],
+ ['Why should pilots cross-check flight instruments?','Different sensors and instruments may fail or disagree; cross-checking helps identify unreliable indications.','Instruments'],
+ ['What is the meaning of QNH?','An altimeter setting intended to indicate elevation above mean sea level when on the ground under standard assumptions.','Altimetry'],
+ ['How would you handle an instruction from ATC that you did not fully understand?','Request clarification or repetition; do not act on a misunderstood clearance.','ATC'],
+ ['What is density altitude and why is it important?','Pressure altitude corrected for nonstandard temperature, useful when assessing performance in nonstandard atmospheric conditions.','Weather'],
+ ['What does the term go-around mean?','Discontinuing an approach to landing and transitioning to a climb or missed-approach procedure as applicable.','Flight Operations'],
+ ['How would you respond if a crewmember points out an error while the aircraft is behind schedule?','Open-ended: listen, verify the concern, apply the procedure and avoid allowing schedule pressure to compromise safety.','CRM'],
+ ['Why is a preflight performance calculation necessary?','To determine whether the aircraft can safely meet runway and climb constraints under current weight and conditions.','Performance'],
+ ['How are runway numbers normally determined?','They generally correspond to runway magnetic direction rounded to the nearest 10 degrees with the last zero omitted.','Airports'],
+ ['Explain the difference between anti-icing and de-icing.','Anti-icing prevents or delays ice accumulation; de-icing removes ice already present.','Aircraft Systems'],
+ ['What are the three axes of aircraft rotation?','Longitudinal (roll), lateral (pitch), and vertical (yaw).','Aircraft Controls'],
+ ['What information can surface weather observations provide to pilots?','Commonly wind, visibility, clouds, temperature, pressure and significant weather at a reporting location.','Weather']
+];

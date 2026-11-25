@@ -1,0 +1,127 @@
+/* V7 — section-specific answer controls. */
+.section-tools {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end
+}
+.answer-toggle {
+  background:#f4f4f4;
+  border:1px solid #e9e9e9;
+  border-radius:12px;
+  color:#202020;
+  font-size:12px;
+  line-height:1;
+  font-weight:620;
+  min-height:36px;
+  padding:0 13px;
+  white-space:nowrap;
+  transition:background .15s,border-color .15s
+}
+.answer-toggle:hover {
+  background:#e9e9e9;
+  border-color:#d4d4d4
+}
+.answer-toggle[aria-expanded="true"] {
+  background:#171717;
+  color:#fff;
+  border-color:#171717
+}
+@media(max-width:440px) {
+  .section-heading {
+    gap:9px
+  }
+  .section-heading h2 {
+    font-size:14px
+  }
+  .section-tools {
+    gap:7px
+  }
+  .answer-toggle {
+    font-size:11px;
+    min-height:34px;
+    padding:0 10px
+  }
+}
+
+/* V9 — individual answer controls. */
+.item-head {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px
+}
+.item-head > .item-body {
+  flex:1;
+  min-width:0
+}
+.reveal-icon {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 35px;
+  width:35px;
+  height:35px;
+  padding:0;
+  border-radius:11px;
+  border:1px solid #e7e7e7;
+  background:#f6f6f6;
+  color:#555;
+  transition:background .15s,color .15s,border-color .15s
+}
+.reveal-icon:hover {
+  background:#ebebeb;
+  color:#111
+}
+.reveal-icon[aria-expanded="true"] {
+  background:#171717;
+  color:#fff;
+  border-color:#171717
+}
+.reveal-icon img {
+  width:17px;
+  height:17px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round
+}
+.atcItem .item-head {
+  align-items:center
+}
+.atcItem .atcMeta {
+  flex:1;
+  min-width:0
+}
+.question-list li .item-head {
+  align-items:flex-start
+}
+.question-list li .reveal-icon {
+  margin-top:1px
+}
+@media(max-width:440px) {
+  .reveal-icon {
+    width:34px;
+    height:34px;
+    flex-basis:34px
+  }
+}
+
+
+.reveal-icon[aria-expanded="true"] img { filter: invert(1); }
+
+/* Expanded ATC learning notes */
+.atc-teaching h4 {font-size:12px;letter-spacing:.05em;text-transform:uppercase;margin:18px 0 7px;color:#555}
+.atc-teaching h4:first-child {margin-top:0}
+.atc-teaching p {line-height:1.65;margin:6px 0 10px}
+.atc-teaching .radio-spoken {background:#f4f4f4;border:1px solid #e9e9e9;border-radius:10px;padding:12px;line-height:1.8;color:#222}
+.atc-teaching .atc-caution {font-size:11px;color:#6d6d6d}
+.atc-detail-list {padding-left:22px;margin:8px 0}
+.atc-detail-list li {margin:0 0 13px;padding:0 0 9px;line-height:1.5;border-bottom:1px solid #ededed}
+.atc-detail-list li:last-child {border-bottom:0}
+.atc-explain-item strong{font-size:12px;color:#222}
+.atc-explain-item p{margin:4px 0}
+.atc-reading-mini{font-size:11px;color:#707070}
+@media print {.atc-teaching h4{break-after:avoid}.atc-detail-list li{break-inside:avoid}.atc-teaching .radio-spoken{border:1px solid #ccc;background:#fff}}
