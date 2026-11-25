@@ -1,0 +1,26 @@
+{
+  "id": "article-013",
+  "title": "How Radar Helps Pilots Understand Weather",
+  "category": "PHAK · Weather",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 13, pp. 13-2–13-4",
+  "paragraphs": [
+    {
+      "en": "Weather radar provides information about precipitation by transmitting radio energy and measuring the signals reflected back toward the antenna. Stronger returns can indicate more intense precipitation, but they do not directly measure all turbulence or every other aviation hazard.",
+      "zh": "氣象雷達發射無線電能量並測量天線接收到的反射訊號，以提供降水資訊。較強的回波可能代表較強降水，但雷達無法直接測量所有亂流或其他航空危害。"
+    },
+    {
+      "en": "Ground-based weather radar helps meteorologists monitor the location and movement of precipitation systems. Airborne weather radar allows suitably equipped crews to observe precipitation ahead of their aircraft. Interpretation requires care because radar performance depends on factors such as antenna angle, precipitation type, range, and signal attenuation.",
+      "zh": "地面氣象雷達協助氣象人員追蹤降水系統的位置與移動；機載氣象雷達則讓配備適當設備的機組觀察前方降水。判讀時必須謹慎，因為雷達性能會受天線仰角、降水類型、距離及訊號衰減影響。"
+    },
+    {
+      "en": "A region that appears clear on a radar display is not automatically free of hazards. Severe weather can extend beyond areas of heavy precipitation, and some turbulence may not be detected by conventional weather radar. Pilots therefore compare radar information with forecasts, reports, and other available data.",
+      "zh": "雷達畫面上看似晴朗的區域，不代表完全沒有危險。惡劣天氣可能延伸到強降水區外，有些亂流也無法由傳統氣象雷達偵測。機師因此需要交叉比對雷達、預報、報告及其他資料。"
+    },
+    {
+      "en": "Understanding the limitations of radar is just as important as knowing what the system can display.",
+      "zh": "了解雷達的限制，與知道它能顯示哪些資訊同樣重要。"
+    }
+  ]
+}

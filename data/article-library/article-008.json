@@ -1,0 +1,26 @@
+{
+  "id": "article-008",
+  "title": "What Happens When a Cold Front Arrives?",
+  "category": "PHAK · Weather",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 12, pp. 12-18–12-21",
+  "paragraphs": [
+    {
+      "en": "A cold front is the leading boundary of a colder air mass advancing into an area occupied by warmer air. Because cold air is relatively dense, it tends to move underneath the warmer air, forcing that air to rise. As rising air cools, clouds and precipitation may develop.",
+      "zh": "冷鋒是較冷空氣團向暖空氣所在區域推進時的前緣。冷空氣密度較高，往往從暖空氣下方推進，迫使暖空氣抬升。上升的空氣冷卻後，可能形成雲與降水。"
+    },
+    {
+      "en": "The weather associated with a cold front depends on moisture, atmospheric stability, and the front's movement. Some fronts bring scattered showers or thunderstorms, while others produce widespread clouds and rain. A passing front is often accompanied by a change in wind direction, shifting pressure, and a drop in temperature.",
+      "zh": "冷鋒帶來的天氣取決於水氣、大氣穩定度及鋒面移動情況。有些冷鋒帶來零星陣雨或雷暴，另一些則造成大範圍雲層與降雨。鋒面通過時也常伴隨風向改變、氣壓變化與氣溫下降。"
+    },
+    {
+      "en": "For pilots, the important issue is not simply whether a front is approaching. They must consider visibility, cloud bases, turbulence, icing, and possible thunderstorms along the intended route. Weather reports and forecasts help crews assess whether conditions are suitable for departure, en-route flight, and arrival.",
+      "zh": "對機師而言，重點不只是冷鋒是否接近，而是預定航路的能見度、雲底高、亂流、結冰及雷暴風險。天氣觀測與預報可協助機組評估起飛、航路與抵達時的條件是否適合飛行。"
+    },
+    {
+      "en": "Cold fronts are a reminder that changing weather can affect several parts of flight operations at once.",
+      "zh": "冷鋒提醒我們，天氣變化可能同時影響多個飛行階段。"
+    }
+  ]
+}

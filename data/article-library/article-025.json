@@ -1,0 +1,30 @@
+{
+  "id": "article-025",
+  "title": "Why a Slow Aircraft Can Produce More Induced Drag",
+  "category": "PHAK · Aerodynamics",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 5, pp. 5-6–5-8",
+  "paragraphs": [
+    {
+      "en": "Drag is often associated with high speed, because moving faster through the air usually increases parasite drag. However, a pilot can also encounter substantial drag when flying relatively slowly. The reason is induced drag, which arises from the process of producing lift.",
+      "zh": "阻力常與高速連結，因為飛機在空氣中移動得愈快，寄生阻力通常愈大。然而，在相對低速時，飛機也可能承受很大的阻力，原因就是與升力產生過程有關的誘導阻力。"
+    },
+    {
+      "en": "In level flight, lift must balance weight. When the aircraft slows down, the wing generally needs a greater coefficient of lift to support the same weight. The pilot accomplishes this by increasing angle of attack within the wing's operating range. Higher lift requirements increase the strength of the aerodynamic effects associated with wingtip vortices and downwash, making induced drag more significant.",
+      "zh": "平飛時，升力必須平衡重量。當飛機減速，機翼通常需要較高的升力係數來支撐相同重量。機師透過在正常操作範圍內增加攻角達成此事。較高升力需求會加強翼尖渦流與下洗氣流相關的空氣動力效應，使誘導阻力更顯著。"
+    },
+    {
+      "en": "Parasite drag behaves differently. It includes form drag, skin friction, and interference drag, and it generally becomes larger as speed increases. When the two components are added together, the result is a total-drag curve with a region where drag is relatively low. The exact curve depends on the aircraft's configuration, weight, and other conditions.",
+      "zh": "寄生阻力的反應不同，包括形狀阻力、表面摩擦阻力及干擾阻力，而且通常隨速度增加而變大。把兩種阻力加總，就會得到總阻力曲線，其中有一段總阻力相對較低的區域。曲線的確切形狀取決於飛機構型、重量及其他條件。"
+    },
+    {
+      "en": "This relationship is important during climbs and glides. A pilot cannot always improve performance simply by slowing down. Flying too slowly may increase induced drag and reduce the ability to maintain the desired flight path.",
+      "zh": "這個關係對爬升與滑翔很重要。機師不一定能單靠減速改善性能；飛得太慢可能增加誘導阻力，使飛機更難維持預定飛行路徑。"
+    },
+    {
+      "en": "Understanding induced drag therefore helps explain a seemingly surprising fact: slow flight can demand considerable power, and precise speed control is an important part of managing aircraft energy.",
+      "zh": "理解誘導阻力，有助於解釋看似矛盾的現象：慢速飛行也可能需要相當大的動力，而精確控制速度是管理飛機能量的重要一環。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "article-019",
+  "title": "When a Pitot or Static Source Becomes Blocked",
+  "category": "PHAK · Flight Instruments",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 8, pp. 8-10–8-11",
+  "paragraphs": [
+    {
+      "en": "Pilots use several instruments that depend on pressure differences. The airspeed indicator receives total pressure from the pitot system and static pressure from a static source. The altimeter and vertical speed indicator also rely on static pressure, so a fault in the pressure system can affect more than one display.",
+      "zh": "機師使用多種依賴氣壓差的儀表。空速表接收皮托系統的總壓及靜壓來源的靜壓；高度表與垂直速度表也依賴靜壓，因此壓力系統故障可能同時影響數種顯示。"
+    },
+    {
+      "en": "The indications produced by a blockage depend on which opening is obstructed and whether the associated drain remains open. A pitot tube blocked by ice, for example, does not always cause the same behavior as a blocked static port. It is therefore unwise to memorize one generic failure pattern without understanding the pressure relationships.",
+      "zh": "阻塞造成的指示取決於哪個開口受阻，以及相關排水孔是否保持通暢。例如，皮托管因結冰而堵塞，並不一定與靜壓孔堵塞產生相同的現象。因此，不理解壓力關係而死背一種通用故障模式並不恰當。"
+    },
+    {
+      "en": "Before flight, pilots inspect accessible openings and confirm that required equipment is serviceable. During flight, unexpected instrument readings should be cross-checked against other available information. If several indications disagree, the crew must identify the likely source of the problem without becoming fixated on any one display.",
+      "zh": "飛行前，機師檢查可接近的開口並確認必要設備適航。飛行中若讀數異常，應交叉比對其他可用資訊；如果數項指示互相矛盾，機組應查明可能原因，而不是只盯著單一儀表。"
+    },
+    {
+      "en": "Modern aircraft may have additional sensors and computers, but the underlying lesson remains valuable. Flight instruments transform physical measurements into useful information. When those measurements are unreliable, pilots must apply the relevant aircraft procedures and use every dependable source of information available.",
+      "zh": "現代飛機可能有更多感測器與電腦，但基本原理仍很重要。飛行儀表把物理測量轉換成有用資訊。當測量不可靠時，機師必須遵循相應程序並運用所有可信的資訊來源。"
+    }
+  ]
+}

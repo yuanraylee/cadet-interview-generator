@@ -1,0 +1,26 @@
+{
+  "id": "article-017",
+  "title": "Why Wake Turbulence Matters on Approach",
+  "category": "PHAK · Aerodynamics",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 5, pp. 5-8–5-10",
+  "paragraphs": [
+    {
+      "en": "A lifting wing produces a pressure difference between its upper and lower surfaces. Near the wingtips, air tends to curl around the tips, forming rotating vortices that trail behind the aircraft. These vortices are part of the aerodynamic process associated with induced drag.",
+      "zh": "產生升力的機翼，其上下表面存在壓力差。在翼尖附近，氣流傾向繞過翼尖，形成在飛機後方延伸的旋轉渦流。這些渦流屬於與誘導阻力相關的空氣動力現象。"
+    },
+    {
+      "en": "The resulting wake can be hazardous to an aircraft flying behind another airplane. A smaller aircraft may encounter a rolling moment that is difficult to counteract with its available control authority. Vortex strength depends on several factors, including aircraft weight, speed, and configuration.",
+      "zh": "尾流可能危及後方飛行的其他飛機。較小型飛機可能遭遇難以憑現有操縱能力抵抗的滾轉力矩。渦流強度受飛機重量、速度與構型等因素影響。"
+    },
+    {
+      "en": "Pilots pay particular attention to wake turbulence during takeoff and landing. They consider the preceding aircraft's path, the location where it becomes airborne or touches down, and the effect of wind on vortex drift. Controllers apply separation requirements, but these do not eliminate the pilot's responsibility for safe operation.",
+      "zh": "機師在起降時尤其注意尾流亂流。他們會考慮前機的飛行路徑、離地或接地位置，以及風如何使渦流漂移。航管員雖會依規定提供間隔，但機師仍須負起安全操作責任。"
+    },
+    {
+      "en": "The lesson is that the air behind an aircraft is not always calm simply because the airplane itself has moved away.",
+      "zh": "前機離開後，後方空域並不一定隨即恢復平靜，這就是尾流亂流的重要提醒。"
+    }
+  ]
+}

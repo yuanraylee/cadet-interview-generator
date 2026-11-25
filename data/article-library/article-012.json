@@ -1,0 +1,26 @@
+{
+  "id": "article-012",
+  "title": "Critical Angle of Attack and the Meaning of a Stall",
+  "category": "PHAK · Aerodynamics",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 5, pp. 5-25–5-26",
+  "paragraphs": [
+    {
+      "en": "An aircraft does not stall simply because it reaches one particular airspeed. A stall occurs when the wing exceeds its critical angle of attack and the airflow separates enough to cause a substantial reduction in lift. Airspeed, weight, and load factor can change the conditions in which that angle is reached.",
+      "zh": "飛機失速並非單純因為達到某個特定空速。當機翼超過臨界攻角，氣流分離達到足以使升力大幅下降的程度時，就會失速。空速、重量與負載因數都可能改變達到這個攻角時的飛行條件。"
+    },
+    {
+      "en": "A steep turn, for example, requires the wing to produce more lift than straight-and-level flight. This increases load factor and may raise the indicated airspeed at which a stall occurs. A pilot who remembers only the familiar wings-level stall speed could therefore misunderstand the aircraft's margin above a stall.",
+      "zh": "例如，大坡度轉彎時，機翼必須產生比平直飛行更多的升力，使負載因數增加，也可能提高發生失速時的指示空速。因此，如果機師只記得平飛時熟悉的失速速度，就可能誤判失速裕度。"
+    },
+    {
+      "en": "During a stall, the wing does not instantly stop creating all lift. The essential problem is that the wing can no longer produce the lift required for the intended flight condition. Recovering from the stall requires reducing the excessive angle of attack while following the applicable aircraft procedure.",
+      "zh": "失速時，機翼並不會瞬間完全失去所有升力。真正的問題是機翼無法再產生目前飛行狀態所需的升力。恢復失速必須降低過大的攻角，並遵循適用於該機型的操作程序。"
+    },
+    {
+      "en": "The key lesson is that angle of attack describes the aerodynamic cause of a stall more directly than airspeed alone.",
+      "zh": "核心重點是：相較於單獨觀察空速，攻角更直接描述造成失速的空氣動力原因。"
+    }
+  ]
+}

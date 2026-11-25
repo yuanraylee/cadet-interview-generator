@@ -1,0 +1,26 @@
+{
+  "id": "article-014",
+  "title": "What Happens During a Turbine Engine Flameout?",
+  "category": "PHAK · Aircraft Systems",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 7, p. 7-24",
+  "paragraphs": [
+    {
+      "en": "A flameout occurs when combustion stops inside an operating gas turbine engine. Since the engine depends on continuous combustion to produce power, a flameout can cause a significant loss of thrust. Possible contributing factors include interruptions to fuel supply, severe airflow disturbances, or certain environmental conditions.",
+      "zh": "熄火（flameout）是指正在運轉的燃氣渦輪發動機內部燃燒停止。由於引擎仰賴持續燃燒產生動力，熄火可能造成推力大幅減少。可能原因包括燃油供應中斷、嚴重氣流擾動或特定環境條件。"
+    },
+    {
+      "en": "A flameout is different from an ordinary reduction in commanded thrust. The crew must identify the engine's condition by using appropriate indications and following the applicable procedures. Some engines may be capable of restarting in flight when the necessary conditions are satisfied. Whether a restart is possible depends on the aircraft, engine, altitude, speed, and other limitations.",
+      "zh": "熄火不同於正常指令下的推力降低。機組必須依適當的儀表指示辨識引擎狀態，並遵循相關程序。某些引擎在符合條件時可以空中重新啟動；是否可行取決於機型、引擎、高度、速度及其他限制。"
+    },
+    {
+      "en": "Airline crews train for engine abnormalities because safe management involves more than restoring thrust. They must maintain aircraft control, understand the remaining performance, communicate effectively, and choose a safe course of action. Specific checklists and limitations are always aircraft-dependent.",
+      "zh": "航空公司會針對引擎異常進行訓練，因為安全處置不只是恢復推力。機組必須維持飛機控制、掌握剩餘性能、有效溝通，並選擇安全行動方案。具體檢查表與限制仍依機型而定。"
+    },
+    {
+      "en": "The broader lesson is that abnormal situations demand accurate diagnosis and disciplined use of procedures, not guesswork.",
+      "zh": "這個主題的重點是：異常狀況需要正確診斷及遵循程序的紀律，而不是憑猜測處理。"
+    }
+  ]
+}

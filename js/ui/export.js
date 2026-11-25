@@ -16,8 +16,8 @@ async function copyPaper(){
   textarea.value=content;textarea.style.position='fixed';textarea.style.top='-1000px';
   document.body.appendChild(textarea);textarea.focus();textarea.select();
   const copied=document.execCommand('copy');textarea.remove();
-  if(!copied){$('message').textContent='Copy was blocked by your browser. Use Print or select the text manually.';return;}
+  if(!copied){$('message').textContent=CadetI18n.t('copyBlocked');return;}
  }
- $('message').textContent='The full practice paper and answer key have been copied.';
+ $('message').textContent=CadetI18n.t('copied');
 }
 $('copy').addEventListener('click',copyPaper);

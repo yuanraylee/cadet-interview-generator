@@ -167,4 +167,4 @@ const ATC_EXTRA = [
  }}
 ];
 // Append the expanded practice scenarios without altering the existing exercises.
-PROCEDURES.push(...ATC_EXTRA.map(p=>({...p,rich:true})));
+PROCEDURES.push(...ATC_EXTRA.map(p=>({...p})));

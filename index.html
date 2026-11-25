@@ -1,67 +1,184 @@
 <!doctype html>
-<html lang="en">
-<head>
-<link rel="icon" type="image/svg+xml" href="./assets/logos/favicon.svg">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f2f2f2">
-<title>Cadet Interview Generator</title>
-<link rel="stylesheet" href="./css/base.css">
-<link rel="stylesheet" href="./css/theme.css">
-<link rel="stylesheet" href="./css/cards.css">
-<link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/answers.css">
-<link rel="stylesheet" href="./css/print.css" media="print">
-</head>
-<body>
-<main>
-  <header class="site-header">
-    <div class="brand">
-      <img class="brand-icon" src="./assets/logos/favicon.svg" alt="">
-      <div class="brand-text">
-        <h1>Cadet Interview Generator</h1>
-        <p>Pilot Interview Preparation</p>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2f2f2">
+    <meta
+      name="description"
+      content="Offline cadet-pilot interview practice with English reading, simulated ATC, and interview questions."
+    >
+    <link rel="icon" type="image/svg+xml" href="./assets/logos/favicon.svg">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/answers.css">
+    <link rel="stylesheet" href="./css/bilingual.css">
+    <link rel="stylesheet" href="./css/refinement.css">
+    <link rel="stylesheet" href="./css/print.css" media="print">
+    <title>Cadet Interview Generator</title>
+  </head>
+  <body>
+    <main>
+      <header class="site-header">
+        <div class="brand">
+          <img class="brand-icon" src="./assets/logos/favicon.svg" alt="">
+          <div class="brand-text">
+            <h1>Cadet Interview Generator</h1>
+            <p data-i18n="subtitle">培訓機師面試練習</p>
+          </div>
+        </div>
+
+        <div class="language-control" role="group" aria-label="Language / 語言">
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang="zh-TW" aria-pressed="true">繁中</button>
+        </div>
+      </header>
+
+      <div class="controls">
+        <div class="control">
+          <label for="articleLength" data-i18n="articleLength">文章長度</label>
+          <select id="articleLength">
+            <option value="random" selected>Random · 100–500 words</option>
+            <option value="short">Short · 100–199 words</option>
+            <option value="medium">Medium · 200–299 words</option>
+            <option value="long">Long · 300–500 words</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="atcDifficulty" data-i18n="difficulty">ATC 難度</label>
+          <select id="atcDifficulty">
+            <option value="easy">Easy · 2–3 items</option>
+            <option value="normal" selected>Normal · 4–5 items</option>
+            <option value="hard">Hard · 5–6 items</option>
+          </select>
+        </div>
+
+        <button id="generate" class="primary" type="button">
+          <span data-i18n="generate">產生題目</span>
+          <span aria-hidden="true">→</span>
+        </button>
       </div>
-    </div>
-  </header>
-  <div class="controls">
-    <div class="control"><label for="articleLength">Article Length</label><select id="articleLength"><option value="random" selected>Random · 100–500 words</option><option value="short">Short · 100–199 words</option><option value="medium">Medium · 200–299 words</option><option value="long">Long · 300–500 words</option></select></div>
-    <div class="control"><label for="atcDifficulty">ATC Difficulty</label><select id="atcDifficulty"><option value="easy">Easy · 2–3 items</option><option value="normal" selected>Normal · 4–5 items</option><option value="hard">Hard · 6–8 items</option></select></div>
-    <button id="generate" class="primary">Generate <span aria-hidden="true">→</span></button>
-  </div>
-<p id="message" class="msg" aria-live="polite"></p>
-  <div id="paper" class="paper" hidden>
-    <div class="paper-header">
-      <div class="paper-meta"><span id="generatedAt"></span> <span id="paperMode" hidden></span></div>
-      <div class="actions">
-        <button id="showAll" class="secondary" type="button">Show All</button>
-        <button id="copy" class="secondary" type="button">Copy</button>
-        <button id="print" class="secondary" type="button">Print</button>
+
+      <p id="message" class="msg" aria-live="polite"></p>
+
+      <div id="paper" class="paper" hidden>
+        <div class="paper-header">
+          <div class="paper-meta">
+            <span id="generatedAt"></span>
+            <span id="paperMode" hidden></span>
+          </div>
+          <div class="actions">
+            <button id="showAll" class="secondary" type="button">顯示全部答案</button>
+            <button id="copy" class="secondary" data-i18n="copy" type="button">複製</button>
+            <button id="print" class="secondary" data-i18n="print" type="button">列印</button>
+          </div>
+        </div>
+
+        <div id="nums" class="numbers"></div>
+
+        <section class="section article-card">
+          <div class="section-heading">
+            <h2 data-i18n="reading">英文閱讀</h2>
+            <span id="showLength" class="tiny"></span>
+          </div>
+          <div id="articleCategory" class="category"></div>
+          <h3 id="articleTitle" class="article-title"></h3>
+          <div id="articleBody" class="article-body"></div>
+          <div class="article-source"><span id="articleSource"></span></div>
+
+          <div class="reading-tools" role="group" aria-label="Reading study aids">
+            <section class="translation-card" aria-label="Chinese Translation">
+              <div class="translation-control-row">
+                <span class="translation-label" data-i18n="translationToggle">中文翻譯</span>
+                <button
+                  type="button"
+                  id="translationToggle"
+                  class="eye-control"
+                  aria-expanded="false"
+                  aria-controls="translationPanel"
+                  aria-label="顯示翻譯"
+                  title="顯示翻譯"
+                >
+                  <svg class="eye-glyph" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                </button>
+              </div>
+              <div id="translationPanel" class="reading-panel" hidden></div>
+            </section>
+
+            <button
+              type="button"
+              id="vocabularyToggle"
+              class="disclosure-row"
+              hidden
+              aria-expanded="false"
+              aria-controls="vocabularyPanel"
+            >
+              <span data-i18n="vocabularyToggle">重點單字</span>
+              <svg class="chevron" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            <div id="vocabularyPanel" class="reading-panel" hidden></div>
+          </div>
+        </section>
+
+        <section class="section atc-card">
+          <div class="section-heading">
+            <h2 data-i18n="atc">航管通訊練習</h2>
+            <span class="tiny">03</span>
+          </div>
+          <div id="atc"></div>
+        </section>
+
+        <section class="section question-card">
+          <div class="section-heading">
+            <h2 data-i18n="five">連續五問</h2>
+            <span class="tiny">05</span>
+          </div>
+          <ol id="questions" class="question-list"></ol>
+        </section>
+
+        <p class="smallNote" data-i18n="disclaimer">
+          僅供面試練習；所有 ATC 指令均為模擬內容，不能作為實際飛行許可。
+        </p>
       </div>
-    </div>
-    <div id="nums" class="numbers"></div>
-    <section class="section article-card"><div class="section-heading"><h2>Reading Article</h2><span id="showLength" class="tiny"></span></div><div id="articleCategory" class="category"></div><h3 id="articleTitle" class="article-title"></h3><div id="articleBody" class="article-body"></div><div class="article-source"><span id="articleSource"></span></div></section>
-    <section class="section atc-card"><div class="section-heading"><h2>ATC Communications</h2><span class="tiny">03</span></div><div id="atc"></div></section>
-    <section class="section question-card"><div class="section-heading"><h2>Five Questions</h2><span class="tiny">05</span></div><ol id="questions" class="question-list"></ol></section>
-    <p class="smallNote">For interview practice only. ATC instructions are simulated, not operational clearances.</p>
-  </div>
-  <footer>References: FAA PHAK (FAA-H-8083-25C) · ICAO Doc 9432 (4th ed., 2007) · <a href="https://ais.caa.gov.tw/eaip" target="_blank" rel="noopener">Taiwan CAA eAIP</a> · For interview practice only. This website does not provide official examination questions.</footer>
-</main>
-<!-- Script order matters: data → utilities → generators → UI → entry point. -->
-<script src="./data/articles.js" defer></script>
-<script src="./data/questions.js" defer></script>
-<script src="./data/atc.js" defer></script>
-<script src="./data/atc-extra.js" defer></script>
-<script src="./data/atc-hard-plus.js" defer></script>
-<script src="./js/utils/helpers.js" defer></script>
-<script src="./data/atc-80k.js" defer></script>
-<script src="./js/generators/questions.js" defer></script>
-<script src="./js/generators/atc.js" defer></script>
-<script src="./js/generators/articles.js" defer></script>
-<script src="./js/ui/atc-explanation.js" defer></script>
-<script src="./js/ui/render.js" defer></script>
-<script src="./js/ui/answers.js" defer></script>
-<script src="./js/ui/export.js" defer></script>
-<script src="./js/app.js" defer></script>
-</body>
+
+      <footer>
+        References: FAA PHAK (FAA-H-8083-25C) · ICAO Doc 9432 (4th ed., 2007) ·
+        <a href="https://ais.caa.gov.tw/eaip" target="_blank" rel="noopener">Taiwan CAA eAIP</a> ·
+        For interview practice only. This website does not provide official examination questions.
+      </footer>
+    </main>
+
+    <!-- Classic scripts use globals; preserve this dependency order. -->
+    <script src="./data/articles.js" defer></script>
+    <script src="./data/reading-translations.js" defer></script>
+    <script src="./data/reading-vocabulary.js" defer></script>
+    <script src="./js/i18n.js" defer></script>
+    <script src="./data/questions.js" defer></script>
+    <script src="./data/atc.js" defer></script>
+    <script src="./data/atc-extra.js" defer></script>
+    <script src="./js/utils/helpers.js" defer></script>
+    <script src="./data/atc-80k.js" defer></script>
+    <script src="./js/generators/questions.js" defer></script>
+    <script src="./js/generators/atc-validation.js" defer></script>
+    <script src="./js/generators/atc.js" defer></script>
+    <script src="./js/generators/articles.js" defer></script>
+    <script src="./data/atc-navaids.js" defer></script>
+    <script src="./js/ui/atc-explanation.js" defer></script>
+    <script src="./data/aviation-glossary.js" defer></script>
+    <script src="./data/aviation-glossary-depth.js" defer></script>
+    <script src="./js/ui/reading-support.js" defer></script>
+    <script src="./js/ui/render.js" defer></script>
+    <script src="./js/ui/answers.js" defer></script>
+    <script src="./js/ui/export.js" defer></script>
+    <script src="./js/app.js" defer></script>
+    <script src="./js/ui/language.js" defer></script>
+  </body>
 </html>
