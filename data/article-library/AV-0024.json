@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0024",
+  "title": "Surface, Upper-Air, Radar and Satellite Weather Data",
+  "category": "aviation-knowledge",
+  "subcategory": "weather",
+  "displayCategory": "PHAK · Weather",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 13, pp. 13-2–13-4",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Aviation forecasts rely on observations collected from different parts of the atmosphere. Surface stations report conditions close to the ground, including wind, visibility, temperature, clouds, and pressure. These measurements are especially useful near airports, but a single station cannot describe the entire route between departure and destination.",
+        "zh": null
+      },
+      {
+        "en": "Upper-air data helps describe what is happening above the surface. Weather balloons and instruments carried by aircraft provide information about wind, temperature, and moisture at different altitudes. Such observations help forecasters identify atmospheric layers, jet streams, and changes that may influence turbulence or icing.",
+        "zh": null
+      },
+      {
+        "en": "Weather radar detects precipitation by measuring reflected radio signals. It is useful for locating and tracking rain and storm systems, but the strength of a radar return should not be treated as a direct measurement of every turbulence hazard. Some dangerous conditions may exist outside areas of strong precipitation.",
+        "zh": null
+      },
+      {
+        "en": "Satellite imagery offers a wider geographical view. It is particularly valuable where ground observation networks are limited, and it can show cloud systems extending across large regions. Its limitations depend on the type of image and sensor being used.",
+        "zh": null
+      },
+      {
+        "en": "Forecasters combine these different observations with models and professional interpretation. Pilots should also compare several information sources rather than depending on a single weather display. The objective is not to collect as much information as possible, but to understand the operational significance of the information available.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "weather",
+    "surface",
+    "upper-air",
+    "radar"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

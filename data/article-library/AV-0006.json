@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0006",
+  "title": "The Three Axes of Aircraft Motion",
+  "category": "aviation-knowledge",
+  "subcategory": "aerodynamics",
+  "displayCategory": "PHAK · Aerodynamics",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 5, pp. 5-12–5-13; Chapter 6, pp. 6-2–6-4",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "An airplane can rotate about three imaginary axes that intersect near its center of gravity. Each axis describes a different type of motion. The longitudinal axis runs from nose to tail, the lateral axis extends from one wingtip to the other, and the vertical axis passes through the aircraft from top to bottom.",
+        "zh": null
+      },
+      {
+        "en": "Rotation around the longitudinal axis is called roll. The ailerons normally control this motion by creating a difference in lift between the wings. Rotation around the lateral axis is called pitch, which is primarily controlled by the elevator. Rotation around the vertical axis is called yaw, which is controlled by the rudder on a conventional airplane.",
+        "zh": null
+      },
+      {
+        "en": "These motions do not always occur independently. When the pilot rolls into a turn, adverse yaw may cause the nose to move opposite the intended direction. Coordinating the ailerons and rudder helps control this tendency. Understanding the three axes gives pilots a clear way to describe aircraft attitudes and the purpose of primary flight controls.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aerodynamics",
+    "three",
+    "axes",
+    "aircraft"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

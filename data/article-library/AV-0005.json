@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0005",
+  "title": "Why Global Supply Chains Depend on Reliable Transport",
+  "category": "global-affairs-economics",
+  "subcategory": "supply-chains",
+  "displayCategory": "Global Affairs / Economics",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "original",
+    "name": "Original educational practice passage",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational practice passage migrated from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "A modern product may contain materials and components produced in several countries. A single manufacturer might obtain electronic parts from one region, assemble the final product in another, and sell it to customers across the world. This arrangement can reduce costs and improve access to specialized expertise, but it also makes production dependent on international transportation networks.",
+        "zh": null
+      },
+      {
+        "en": "Sea freight carries much of the world's physical trade because it can move large volumes at relatively low cost. Air freight plays a different role. It is often selected for goods that are time-sensitive, valuable relative to their weight, or costly to keep in inventory. Medical equipment, electronic components, and urgent replacement parts may all benefit from fast delivery, although transport choices depend on the specific product and market.",
+        "zh": null
+      },
+      {
+        "en": "Supply chains become vulnerable when an important route or transport hub is disrupted. Extreme weather, geopolitical tensions, labor disputes, or infrastructure failures may delay shipments. A disruption at one location can create consequences elsewhere because factories may rely on components arriving in a particular sequence. Businesses with little spare inventory can be especially sensitive to these delays.",
+        "zh": null
+      },
+      {
+        "en": "Companies respond to uncertainty in different ways. Some diversify their suppliers, while others keep larger inventories of critical components. They may establish alternative transport routes or move part of their production closer to customers. Each response involves trade-offs. Holding more inventory ties up money, and relocating production may introduce new costs or risks.",
+        "zh": null
+      },
+      {
+        "en": "Governments also have an interest in transport resilience. Airports, ports, customs systems, and digital logistics networks influence whether trade can move efficiently. Investments in infrastructure may improve reliability, but they take time and require careful planning.",
+        "zh": null
+      },
+      {
+        "en": "For aviation students, this topic explains why airlines are connected to broader economic events. Passenger demand, cargo volumes, fuel prices, and international rules can all influence airline operations. Understanding these connections helps future pilots see commercial aviation as part of a larger global system rather than as an isolated technical activity.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "supply-chains",
+    "global",
+    "supply",
+    "chains"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

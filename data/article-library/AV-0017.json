@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0017",
+  "title": "Why Wake Turbulence Matters on Approach",
+  "category": "aviation-knowledge",
+  "subcategory": "aerodynamics",
+  "displayCategory": "PHAK · Aerodynamics",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 5, pp. 5-8–5-10",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "A lifting wing produces a pressure difference between its upper and lower surfaces. Near the wingtips, air tends to curl around the tips, forming rotating vortices that trail behind the aircraft. These vortices are part of the aerodynamic process associated with induced drag.",
+        "zh": null
+      },
+      {
+        "en": "The resulting wake can be hazardous to an aircraft flying behind another airplane. A smaller aircraft may encounter a rolling moment that is difficult to counteract with its available control authority. Vortex strength depends on several factors, including aircraft weight, speed, and configuration.",
+        "zh": null
+      },
+      {
+        "en": "Pilots pay particular attention to wake turbulence during takeoff and landing. They consider the preceding aircraft's path, the location where it becomes airborne or touches down, and the effect of wind on vortex drift. Controllers apply separation requirements, but these do not eliminate the pilot's responsibility for safe operation.",
+        "zh": null
+      },
+      {
+        "en": "The lesson is that the air behind an aircraft is not always calm simply because the airplane itself has moved away.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aerodynamics",
+    "wake",
+    "turbulence",
+    "matters"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

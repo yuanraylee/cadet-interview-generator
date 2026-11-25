@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0007",
+  "title": "Why Aircraft Use Composite Materials",
+  "category": "aviation-knowledge",
+  "subcategory": "aircraft-structure",
+  "displayCategory": "PHAK · Aircraft Structure",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 3, pp. 3-9–3-12",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Aircraft designers increasingly use composite materials in structures such as wings, fuselages, and control surfaces. A composite combines two or more materials to achieve properties that may be difficult to obtain from one material alone. Many aircraft composites use strong fibers embedded in a resin matrix. The fibers carry much of the load, while the matrix keeps them in the required shape.",
+        "zh": null
+      },
+      {
+        "en": "Carbon fiber and fiberglass are common examples. Composites can provide high strength relative to their weight and allow engineers to produce smooth, complex shapes. These advantages can support aerodynamic efficiency and structural design.",
+        "zh": null
+      },
+      {
+        "en": "However, composites also create maintenance challenges. Certain damage may be difficult to identify by visual inspection alone. Repairs can require specialized methods, training, and environmental controls. Aircraft structures must also address lightning protection, particularly where the material conducts electricity differently from aluminum.",
+        "zh": null
+      },
+      {
+        "en": "A lighter structure is useful, but safety depends on correct design, inspection, and maintenance throughout an aircraft's service life.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aircraft-structure",
+    "aircraft",
+    "composite",
+    "materials"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

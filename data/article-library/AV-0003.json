@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0003",
+  "title": "What Makes Wind Shear Dangerous Near the Ground?",
+  "category": "aviation-science",
+  "subcategory": "wind-shear",
+  "displayCategory": "Aviation Science",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "original",
+    "name": "Original educational practice passage",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational practice passage migrated from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Wind shear is a change in wind speed, wind direction, or both over a relatively short distance. An aircraft may encounter it at any altitude, but it deserves particular attention close to the ground. During takeoff and landing, pilots have less height and time available to recognize unexpected changes in performance and respond appropriately.",
+        "zh": null
+      },
+      {
+        "en": "A thunderstorm can produce one especially hazardous form of wind shear: a microburst. In this phenomenon, a strong downdraft reaches the ground and spreads outward. An aircraft flying through the affected area may first encounter a headwind that temporarily increases indicated airspeed and lift. Moments later, it can encounter a downdraft followed by a tailwind. The combined changes can produce a rapid loss of performance at a very unfavorable moment.",
+        "zh": null
+      },
+      {
+        "en": "The danger is not limited to thunderstorms. Terrain, frontal boundaries, temperature inversions, and other weather conditions can also create sharp changes in the wind. Some airports use ground-based wind-shear detection equipment, while certain aircraft carry systems designed to warn crews of potential or encountered wind shear. These technologies are helpful, but none of them makes every hazardous event completely predictable.",
+        "zh": null
+      },
+      {
+        "en": "Good decision-making begins before a warning sounds. Crews monitor weather observations, forecasts, pilot reports, and available airport alerts. They also consider whether a safer delay, diversion, or different approach is appropriate. During an encounter, pilots follow the procedures specified for their aircraft rather than improvising based on a single instrument indication.",
+        "zh": null
+      },
+      {
+        "en": "Wind shear demonstrates why aviation safety requires several layers of protection. Meteorological knowledge can help crews avoid dangerous conditions. Airport sensors and onboard equipment can improve awareness. Training and standard procedures can help crews respond when avoidance is no longer possible.",
+        "zh": null
+      },
+      {
+        "en": "For someone learning aviation, the most important point is the relationship between energy, flight path, and time. Near the runway, a sudden change in the surrounding air mass may leave little room for recovery. Understanding the threat before entering that environment is therefore essential.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "wind-shear",
+    "makes",
+    "wind",
+    "shear"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

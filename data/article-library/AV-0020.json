@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0020",
+  "title": "How Checklists Support Safe Flight",
+  "category": "aviation-knowledge",
+  "subcategory": "human-factors",
+  "displayCategory": "PHAK · Human Factors",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 2, Aeronautical Decision-Making; Chapter 14, Airport Operations",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Checklists are an important tool for reducing omissions during aviation operations. They help crews verify that essential tasks have been completed in the correct order or that the aircraft is in the required configuration. In airline operations, the exact format and use of checklists depend on aircraft type and the operator's standard procedures.",
+        "zh": null
+      },
+      {
+        "en": "A checklist is not merely a memory test. Crews normally combine their understanding of aircraft systems with established flows and verification steps. The use of challenge-and-response procedures can also support communication by ensuring that important indications and switch positions are checked by the appropriate crew members.",
+        "zh": null
+      },
+      {
+        "en": "Time pressure can create a temptation to rush. A professional crew must recognize when an interruption, uncertainty, or unexpected indication requires an additional check. Clear communication and defined responsibilities allow tasks to be completed efficiently without sacrificing essential safety barriers.",
+        "zh": null
+      },
+      {
+        "en": "Checklists also support learning from experience. When an organization identifies recurring mistakes or confusing procedures, it can revise training and documentation through an approved process. These improvements must themselves be reviewed and controlled rather than introduced informally.",
+        "zh": null
+      },
+      {
+        "en": "A good checklist system therefore combines human judgment with standardization. It helps experienced professionals work consistently even when workloads are high and circumstances are changing.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "human-factors",
+    "checklists",
+    "support",
+    "safe"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

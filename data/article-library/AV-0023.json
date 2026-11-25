@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0023",
+  "title": "What a Pilot Learns from a GPS Position",
+  "category": "aviation-knowledge",
+  "subcategory": "navigation",
+  "displayCategory": "PHAK · Navigation",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 16, pp. 16-30–16-32",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "The Global Positioning System uses signals transmitted by satellites to help a receiver determine its position and time. Modern aircraft commonly integrate satellite navigation into flight management and navigation systems, allowing crews to follow approved routes and procedures with accurate position information.",
+        "zh": null
+      },
+      {
+        "en": "A receiver estimates its position by processing signals from multiple satellites. The system's usefulness depends on more than the satellites themselves. Equipment capability, antenna reception, database currency, integrity monitoring, and applicable operating approvals all influence what pilots can safely do with the information.",
+        "zh": null
+      },
+      {
+        "en": "GPS can provide useful position, ground speed, and course-over-ground information. However, a receiver's track over the ground should not be confused with the aircraft's magnetic heading. In a crosswind, the nose may point in one direction while the aircraft moves across the ground in another. Understanding this distinction helps pilots interpret navigation displays correctly.",
+        "zh": null
+      },
+      {
+        "en": "Not every GPS installation is approved for every type of instrument approach. Crews must verify the aircraft equipment and the procedure requirements. They must also consider possible signal interference, loss of integrity, and the availability of alternative navigation methods.",
+        "zh": null
+      },
+      {
+        "en": "Satellite navigation has made many flight operations more flexible, but its advantages depend on disciplined use. Pilots still need situational awareness, knowledge of system limitations, and the ability to recognize when displayed information may be unreliable.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "navigation",
+    "pilot",
+    "learns",
+    "position"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

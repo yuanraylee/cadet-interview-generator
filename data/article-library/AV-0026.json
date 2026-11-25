@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0026",
+  "title": "Why Airport Runway Markings Matter",
+  "category": "aviation-knowledge",
+  "subcategory": "airport-operations",
+  "displayCategory": "PHAK · Airport Operations",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 14, pp. 14-6–14-18",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Airport markings and signs help pilots understand where they are and where they are permitted to move. They are especially important at large airports, where several runways and taxiways may be close together. A pilot who misunderstands a sign or clearance can create a runway incursion risk even when the weather is good.",
+        "zh": null
+      },
+      {
+        "en": "Runway numbers usually represent the runway's magnetic alignment rounded to the nearest ten degrees. Parallel runways may also be distinguished by letters such as L, C, and R. Taxiway signs and surface markings provide other essential information, including locations where an aircraft must stop before entering a runway.",
+        "zh": null
+      },
+      {
+        "en": "A clearance to taxi does not automatically grant permission to cross every runway along the route. Crews must understand the controller's specific authorization and comply with local procedures. They should also confirm the correct runway before entering it for departure. Readbacks, checklists, and independent verification help protect against misunderstandings.",
+        "zh": null
+      },
+      {
+        "en": "Low visibility, complicated intersections, and a high workload can make surface movement more demanding. Modern airports use lighting, signs, diagrams, and sometimes electronic moving maps to support situational awareness, but these tools do not replace careful communication.",
+        "zh": null
+      },
+      {
+        "en": "For a cadet pilot, runway signs may seem like a small part of aviation knowledge. In practice, correct interpretation is a direct safety requirement. The goal is to maintain an accurate mental picture of the aircraft's location and avoid moving into an area without the required authorization.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "airport-operations",
+    "airport",
+    "runway",
+    "markings"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

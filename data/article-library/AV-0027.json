@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0027",
+  "title": "Why Temperature and Pressure Affect Performance",
+  "category": "aviation-knowledge",
+  "subcategory": "aviation-weather",
+  "displayCategory": "PHAK · Aviation Weather",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 4, pp. 4-3–4-5; Chapter 12, pp. 12-3–12-6",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Aircraft performance depends strongly on the density of the surrounding air. Air density changes with pressure, temperature, and moisture. When pressure decreases or temperature increases, the air generally becomes less dense. These conditions can reduce the performance margins available for takeoff and climb.",
+        "zh": null
+      },
+      {
+        "en": "Density altitude is a useful way to describe the effect of atmospheric conditions. It is pressure altitude corrected for nonstandard temperature. At a high density altitude, an aircraft may behave as though it were operating at a higher altitude than its actual elevation. For many aircraft, this can mean less engine power, reduced propeller efficiency, or less lift at a given true airspeed and angle of attack.",
+        "zh": null
+      },
+      {
+        "en": "A hot day at an elevated airport deserves particular attention because both temperature and field elevation can contribute to high density altitude. Pilots therefore consult the aircraft's performance information rather than assuming that a runway is adequate simply because it has been used successfully before.",
+        "zh": null
+      },
+      {
+        "en": "Atmospheric pressure is also relevant to altimeter settings. The aircraft's indicated altitude depends on the reference pressure selected, so crews must use the correct setting for their operating environment and flight level.",
+        "zh": null
+      },
+      {
+        "en": "The operational lesson is that weather is not only about storms or poor visibility. Even clear skies can accompany conditions that change takeoff distance, climb capability, and the meaning of instrument indications.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aviation-weather",
+    "temperature",
+    "pressure",
+    "affect"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

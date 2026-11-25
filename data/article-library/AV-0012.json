@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0012",
+  "title": "Critical Angle of Attack and the Meaning of a Stall",
+  "category": "aviation-knowledge",
+  "subcategory": "aerodynamics",
+  "displayCategory": "PHAK · Aerodynamics",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 5, pp. 5-25–5-26",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "An aircraft does not stall simply because it reaches one particular airspeed. A stall occurs when the wing exceeds its critical angle of attack and the airflow separates enough to cause a substantial reduction in lift. Airspeed, weight, and load factor can change the conditions in which that angle is reached.",
+        "zh": null
+      },
+      {
+        "en": "A steep turn, for example, requires the wing to produce more lift than straight-and-level flight. This increases load factor and may raise the indicated airspeed at which a stall occurs. A pilot who remembers only the familiar wings-level stall speed could therefore misunderstand the aircraft's margin above a stall.",
+        "zh": null
+      },
+      {
+        "en": "During a stall, the wing does not instantly stop creating all lift. The essential problem is that the wing can no longer produce the lift required for the intended flight condition. Recovering from the stall requires reducing the excessive angle of attack while following the applicable aircraft procedure.",
+        "zh": null
+      },
+      {
+        "en": "The key lesson is that angle of attack describes the aerodynamic cause of a stall more directly than airspeed alone.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aerodynamics",
+    "critical",
+    "angle",
+    "attack"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

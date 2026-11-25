@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cadet-interview-generator.local/schemas/article.schema.json",
+  "title": "Cadet Interview Generator article",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "title",
+    "category",
+    "subcategory",
+    "displayCategory",
+    "difficulty",
+    "status",
+    "source",
+    "content",
+    "tags",
+    "review"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^AV-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "aviation-knowledge",
+        "aircraft-comparison",
+        "aviation-science",
+        "aviation-industry",
+        "global-affairs-economics"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "displayCategory": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["basic", "intermediate", "advanced"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "published"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "name",
+        "url",
+        "publishedDate",
+        "accessedDate",
+        "rightsNote"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["original", "adapted", "excerpt", "news"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "publishedDate": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "accessedDate": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "rightsNote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paragraphs"],
+      "properties": {
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["en", "zh"],
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1
+              },
+              "zh": {
+                "type": ["string", "null"],
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["english", "translation", "facts", "copyright"],
+      "properties": {
+        "english": { "type": "boolean" },
+        "translation": { "type": "boolean" },
+        "facts": { "type": "boolean" },
+        "copyright": { "type": "boolean" }
+      }
+    }
+  }
+}

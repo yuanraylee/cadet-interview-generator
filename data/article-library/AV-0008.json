@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0008",
+  "title": "What Happens When a Cold Front Arrives?",
+  "category": "aviation-knowledge",
+  "subcategory": "weather",
+  "displayCategory": "PHAK · Weather",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 12, pp. 12-18–12-21",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "A cold front is the leading boundary of a colder air mass advancing into an area occupied by warmer air. Because cold air is relatively dense, it tends to move underneath the warmer air, forcing that air to rise. As rising air cools, clouds and precipitation may develop.",
+        "zh": null
+      },
+      {
+        "en": "The weather associated with a cold front depends on moisture, atmospheric stability, and the front's movement. Some fronts bring scattered showers or thunderstorms, while others produce widespread clouds and rain. A passing front is often accompanied by a change in wind direction, shifting pressure, and a drop in temperature.",
+        "zh": null
+      },
+      {
+        "en": "For pilots, the important issue is not simply whether a front is approaching. They must consider visibility, cloud bases, turbulence, icing, and possible thunderstorms along the intended route. Weather reports and forecasts help crews assess whether conditions are suitable for departure, en-route flight, and arrival.",
+        "zh": null
+      },
+      {
+        "en": "Cold fronts are a reminder that changing weather can affect several parts of flight operations at once.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "weather",
+    "happens",
+    "cold",
+    "front"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

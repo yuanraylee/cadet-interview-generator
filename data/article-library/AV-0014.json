@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0014",
+  "title": "What Happens During a Turbine Engine Flameout?",
+  "category": "aviation-knowledge",
+  "subcategory": "aircraft-systems",
+  "displayCategory": "PHAK · Aircraft Systems",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 7, p. 7-24",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "A flameout occurs when combustion stops inside an operating gas turbine engine. Since the engine depends on continuous combustion to produce power, a flameout can cause a significant loss of thrust. Possible contributing factors include interruptions to fuel supply, severe airflow disturbances, or certain environmental conditions.",
+        "zh": null
+      },
+      {
+        "en": "A flameout is different from an ordinary reduction in commanded thrust. The crew must identify the engine's condition by using appropriate indications and following the applicable procedures. Some engines may be capable of restarting in flight when the necessary conditions are satisfied. Whether a restart is possible depends on the aircraft, engine, altitude, speed, and other limitations.",
+        "zh": null
+      },
+      {
+        "en": "Airline crews train for engine abnormalities because safe management involves more than restoring thrust. They must maintain aircraft control, understand the remaining performance, communicate effectively, and choose a safe course of action. Specific checklists and limitations are always aircraft-dependent.",
+        "zh": null
+      },
+      {
+        "en": "The broader lesson is that abnormal situations demand accurate diagnosis and disciplined use of procedures, not guesswork.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aircraft-systems",
+    "happens",
+    "turbine",
+    "engine"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

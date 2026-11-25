@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0021",
+  "title": "Weight and Balance Before Departure",
+  "category": "aviation-knowledge",
+  "subcategory": "aircraft-performance",
+  "displayCategory": "PHAK · Aircraft Performance",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 10, pp. 10-1–10-4",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Before takeoff, crews must know whether the aircraft's loading is within its approved limits. Total weight affects takeoff performance, climb capability, landing distance, and other operating characteristics. The distribution of that weight also matters because it determines the aircraft's center of gravity.",
+        "zh": null
+      },
+      {
+        "en": "Every item loaded aboard an aircraft contributes to the total weight and has a position relative to a reference point called the datum. Weight-and-balance calculations use these values to determine whether the center of gravity falls inside the allowed range. In commercial operations, dispatchers, ground personnel, and flight crews may each have responsibilities defined by company procedures and regulations.",
+        "zh": null
+      },
+      {
+        "en": "An excessively forward center of gravity can affect rotation and control forces. An excessively aft center of gravity can reduce stability and make recovery from a stall more difficult. These effects are not identical across all aircraft; operating limitations are established for each type.",
+        "zh": null
+      },
+      {
+        "en": "Fuel adds another layer of complexity. As fuel is consumed, the aircraft's weight decreases, and its center of gravity may change. Planning must therefore consider conditions not only at departure but also at relevant stages of flight.",
+        "zh": null
+      },
+      {
+        "en": "Weight and balance is an example of how aircraft performance, mathematics, and operational discipline intersect. Accurate data is essential, but communication also matters: loading changes must be reported and incorporated into the final calculation. A flight that departs with incorrect assumptions may face hazards even when the aircraft's engines and other systems are functioning normally.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aircraft-performance",
+    "weight",
+    "balance",
+    "departure"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

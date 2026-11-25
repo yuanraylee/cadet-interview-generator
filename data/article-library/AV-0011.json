@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0011",
+  "title": "The Difference Between Parasite and Induced Drag",
+  "category": "aviation-knowledge",
+  "subcategory": "aerodynamics",
+  "displayCategory": "PHAK · Aerodynamics",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 5, pp. 5-6–5-8",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "An airplane experiences drag whenever it moves through the air. Two major categories are parasite drag and induced drag. Parasite drag comes from the aircraft moving through the atmosphere. It includes form drag, interference drag, and skin friction. In general, parasite drag increases as airspeed rises.",
+        "zh": null
+      },
+      {
+        "en": "Induced drag is different because it is associated with the production of lift. Wingtip vortices and downwash change the direction of the aerodynamic force acting on the wing. This creates a rearward component that contributes to drag. When an aircraft flies slowly while still supporting its weight, the wing requires a higher angle of attack and induced drag becomes more significant.",
+        "zh": null
+      },
+      {
+        "en": "The balance between these two forms of drag explains why aircraft have an airspeed at which total drag is relatively low. Pilots use the relationship to understand climb performance, glide performance, and energy management.",
+        "zh": null
+      },
+      {
+        "en": "Drag is therefore not a single force with one cause. Its components respond differently as airspeed and lift requirements change.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aerodynamics",
+    "difference",
+    "parasite",
+    "induced"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

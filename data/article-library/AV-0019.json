@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0019",
+  "title": "When a Pitot or Static Source Becomes Blocked",
+  "category": "aviation-knowledge",
+  "subcategory": "flight-instruments",
+  "displayCategory": "PHAK · Flight Instruments",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 8, pp. 8-10–8-11",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Pilots use several instruments that depend on pressure differences. The airspeed indicator receives total pressure from the pitot system and static pressure from a static source. The altimeter and vertical speed indicator also rely on static pressure, so a fault in the pressure system can affect more than one display.",
+        "zh": null
+      },
+      {
+        "en": "The indications produced by a blockage depend on which opening is obstructed and whether the associated drain remains open. A pitot tube blocked by ice, for example, does not always cause the same behavior as a blocked static port. It is therefore unwise to memorize one generic failure pattern without understanding the pressure relationships.",
+        "zh": null
+      },
+      {
+        "en": "Before flight, pilots inspect accessible openings and confirm that required equipment is serviceable. During flight, unexpected instrument readings should be cross-checked against other available information. If several indications disagree, the crew must identify the likely source of the problem without becoming fixated on any one display.",
+        "zh": null
+      },
+      {
+        "en": "Modern aircraft may have additional sensors and computers, but the underlying lesson remains valuable. Flight instruments transform physical measurements into useful information. When those measurements are unreliable, pilots must apply the relevant aircraft procedures and use every dependable source of information available.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "flight-instruments",
+    "pitot",
+    "static",
+    "source"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

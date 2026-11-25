@@ -1,6 +1,6 @@
 # Cadet Interview Generator — modular version
 
-這是從你上傳的 `index(1).html` 整理的原生 HTML / CSS / JavaScript 網站。**不需要 npm、React、API Key 或額外的建置工具**。
+這是從你上傳的 `index(1).html` 整理的原生 HTML / CSS / JavaScript 網站。網站執行時**不需要 npm、React、API Key 或伺服器**；只有維護文章庫、執行驗證與測試時需要 Node.js 18 以上版本，不需安裝第三方套件。
 
 ## 專案結構
 
@@ -19,9 +19,17 @@ cadet-interview-generator/
 │   ├── answers.css             題目及答案控制外觀
 │   └── print.css               列印樣式
 ├── data/
-│   ├── articles.js             英文閱讀文章
+│   ├── article-library/        每篇文章一個 JSON（文章資料來源）
+│   ├── articles.js             自動產生的網站文章庫，請勿手動編輯
 │   ├── questions.js            Q4 / Q5 題庫
 │   └── atc.js                  ATC 模擬句型
+├── schemas/
+│   └── article.schema.json     Article Schema V1.0
+├── scripts/
+│   ├── validate-articles.js    結構、內容與跨檔重複檢查
+│   └── build-article-bank.js   產生網站既有格式的 articles.js
+├── tests/
+│   └── articles.test.cjs       遷移完整性與驗證回歸測試
 └── js/
     ├── utils/helpers.js        共用工具、目前題目資料
     ├── generators/
@@ -47,7 +55,7 @@ cadet-interview-generator/
 - **換左上角與 Favicon：** `assets/logos/favicon.svg`（同一份檔案）
 - **增加一個眼睛或其他 Icon：** 放到 `assets/icons/`，再由 HTML 或 `js/ui/render.js` 引用
 - **增加文章插圖：** 放到 `assets/images/`，並按需求改 `js/ui/render.js` 顯示圖片
-- **新增文章：** `data/articles.js`
+- **新增文章：** 在 `data/article-library/` 新增 JSON，驗證後重新產生 `data/articles.js`
 - **新增 Q4 / Q5：** `data/questions.js`
 - **改 ATC 句型：** `data/atc.js`
 - **改答案互動：** `js/ui/answers.js`
@@ -59,6 +67,46 @@ cadet-interview-generator/
 - 目前使用依順序載入的傳統 JavaScript（`defer`），避免引入工具鏈。**不要隨意交換 `index.html` 中的 script 順序**。
 - CSS 先按歷次樣式層次拆分，避免改變畫面優先順序；後續可以在有畫面回歸測試後繼續移除重複樣式。
 - 圖片和 Logo 的權利需自行確認。
+
+## Article Library V1.0
+
+目前 27 篇既有文章已逐篇遷移至 `data/article-library/AV-0001.json`～`AV-0027.json`。網站仍依原本方式載入 `data/articles.js`，所以既有 UI、隨機選文、字數篩選與部署方式不需修改；該檔案改由建置程式產生。
+
+每篇 JSON 包含固定 ID、標題、分類、難度、狀態、來源、逐段內容、標籤與四項審核紀錄。英文與繁中以段落為單位配對；目前 GitHub `main` 的既有文章只有英文，因此遷移資料的 `zh` 為 `null`，`review.translation` 為 `false`，沒有虛構或自動補入翻譯。
+
+### 新增或修改文章
+
+1. 複製一份現有 JSON，使用下一個永久 ID（例如 `AV-0028`），檔名必須與 ID 相同。
+2. 編輯 `data/article-library/AV-0028.json`。不要重複使用已刪除文章的 ID，也不要手動填寫字數。
+3. 驗證文章庫：
+
+   ```bash
+   node scripts/validate-articles.js
+   ```
+
+4. 重新產生網站文章庫：
+
+   ```bash
+   node scripts/build-article-bank.js
+   ```
+
+5. 執行回歸測試：
+
+   ```bash
+   node --test tests/*.test.cjs
+   ```
+
+也可以使用 `npm run validate:articles`、`npm run build:articles` 與 `npm test`；`package.json` 沒有任何第三方相依套件。
+
+### 驗證與發布規則
+
+- ID 必須符合 `AV-0000` 格式，且 ID、標題及正規化後的英文全文不可重複。
+- 英文內容必須介於 100～500 字，標題、分類、來源、標籤與審核欄位不可缺漏。
+- 翻譯必須「全部段落完成」或「全部為 `null`」，不允許只翻一部分卻標記完成。
+- `published` 文章的英文、事實與著作權審核必須通過；只有 `published` 文章會進入網站文章庫。
+- `node scripts/build-article-bank.js --check` 只檢查產出是否為最新版，不會改寫檔案，適合 CI 或送出 PR 前使用。
+
+`schemas/article.schema.json` 是資料交換規格；`scripts/validate-articles.js` 另外執行字數、翻譯完整性、檔名一致性與跨檔重複檢查。新增來源文章仍需由維護者確認內容正確性與使用權，通過格式驗證不代表已取得轉載權。
 
 
 ## English interface and A4 printing

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0009",
+  "title": "How the Pitot-Static System Works",
+  "category": "aviation-knowledge",
+  "subcategory": "flight-instruments",
+  "displayCategory": "PHAK · Flight Instruments",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 8, pp. 8-1–8-11",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "The pitot-static system supplies pressure information to several important flight instruments. A pitot tube measures total, or impact, pressure as an aircraft moves through the air. Static ports measure the surrounding atmospheric pressure. The airspeed indicator compares these pressures to display indicated airspeed.",
+        "zh": null
+      },
+      {
+        "en": "Static pressure is also used by the altimeter and vertical speed indicator. The altimeter relates pressure to altitude, while the vertical speed indicator responds to changes in static pressure over time. Because these instruments depend on pressure, blockages and leaks can create misleading indications.",
+        "zh": null
+      },
+      {
+        "en": "For example, a blocked pitot opening may affect the airspeed indicator, while a blocked static source may influence several instruments at once. The exact indications depend on the type and location of the blockage.",
+        "zh": null
+      },
+      {
+        "en": "Pilots learn to cross-check information rather than trusting one indication in isolation. Understanding the pressure sources helps them recognize potential instrument failures and apply the procedures specified in their aircraft manuals.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "flight-instruments",
+    "pitot-static",
+    "system",
+    "works"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

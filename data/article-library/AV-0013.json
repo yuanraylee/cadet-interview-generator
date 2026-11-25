@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0013",
+  "title": "How Radar Helps Pilots Understand Weather",
+  "category": "aviation-knowledge",
+  "subcategory": "weather",
+  "displayCategory": "PHAK · Weather",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 13, pp. 13-2–13-4",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Weather radar provides information about precipitation by transmitting radio energy and measuring the signals reflected back toward the antenna. Stronger returns can indicate more intense precipitation, but they do not directly measure all turbulence or every other aviation hazard.",
+        "zh": null
+      },
+      {
+        "en": "Ground-based weather radar helps meteorologists monitor the location and movement of precipitation systems. Airborne weather radar allows suitably equipped crews to observe precipitation ahead of their aircraft. Interpretation requires care because radar performance depends on factors such as antenna angle, precipitation type, range, and signal attenuation.",
+        "zh": null
+      },
+      {
+        "en": "A region that appears clear on a radar display is not automatically free of hazards. Severe weather can extend beyond areas of heavy precipitation, and some turbulence may not be detected by conventional weather radar. Pilots therefore compare radar information with forecasts, reports, and other available data.",
+        "zh": null
+      },
+      {
+        "en": "Understanding the limitations of radar is just as important as knowing what the system can display.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "weather",
+    "radar",
+    "helps",
+    "pilots"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

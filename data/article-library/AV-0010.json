@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0010",
+  "title": "Crew Resource Management in Practice",
+  "category": "aviation-knowledge",
+  "subcategory": "human-factors",
+  "displayCategory": "PHAK · Human Factors",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 2, pp. 2-4 and 2-13–2-15",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Crew Resource Management, or CRM, focuses on using available resources effectively to support safe flight. Those resources include pilots, cabin crew, aircraft systems, procedures, and information from other people such as controllers and dispatchers.",
+        "zh": null
+      },
+      {
+        "en": "Effective CRM does not mean that everyone must agree immediately. It means important concerns are communicated clearly and evaluated respectfully. A first officer who notices an unexpected indication should speak up rather than remain silent. The captain should encourage useful input while maintaining clear responsibility for decisions.",
+        "zh": null
+      },
+      {
+        "en": "Workload management is another part of CRM. During busy phases of flight, crews rely on defined roles, checklists, and concise communication to prevent tasks from being overlooked. The same principles can help a single pilot, who may use automation, air traffic services, and structured decision-making.",
+        "zh": null
+      },
+      {
+        "en": "Ultimately, CRM supports a shared understanding of the aircraft's situation and the actions required to operate safely.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "human-factors",
+    "crew",
+    "resource",
+    "management"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

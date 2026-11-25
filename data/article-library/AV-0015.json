@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0015",
+  "title": "Why the Center of Gravity Matters",
+  "category": "aviation-knowledge",
+  "subcategory": "weight-and-balance",
+  "displayCategory": "PHAK · Weight and Balance",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 10, pp. 10-1–10-4",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "An aircraft's center of gravity is the point at which its weight can be considered to act. The location of that point depends on how passengers, baggage, fuel, and other loads are distributed. Aircraft manufacturers establish allowable center-of-gravity limits to protect handling and stability characteristics.",
+        "zh": null
+      },
+      {
+        "en": "A center of gravity too far forward can require greater control force to raise the nose and may affect landing or takeoff performance. A center of gravity too far aft can reduce longitudinal stability and make stall recovery more difficult. The precise effects depend on the particular aircraft and its configuration.",
+        "zh": null
+      },
+      {
+        "en": "Weight and balance planning therefore involves two questions: Is the total weight within the applicable limits, and is that weight distributed so that the center of gravity remains in the approved range? A flight can be within its maximum weight yet still be improperly balanced.",
+        "zh": null
+      },
+      {
+        "en": "For pilots and dispatchers, correct loading calculations are part of operational safety. The purpose is not merely to satisfy paperwork but to ensure the aircraft can be controlled within its published limitations.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "weight-and-balance",
+    "center",
+    "gravity",
+    "matters"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

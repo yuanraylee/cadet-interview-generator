@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0002",
+  "title": "Turboprop and Turbofan Aircraft: Different Solutions to Flight",
+  "category": "aircraft-comparison",
+  "subcategory": "propulsion",
+  "displayCategory": "Aircraft Comparison",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "original",
+    "name": "Original educational practice passage",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational practice passage migrated from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "When airlines select aircraft for a route, they consider much more than passenger capacity. Distance, runway length, fuel use, cruising speed, and airport infrastructure all influence the decision. Two common powerplant arrangements, turboprop and turbofan, illustrate how different engineering choices can be useful for different missions.",
+        "zh": null
+      },
+      {
+        "en": "A turboprop engine uses a gas turbine to turn a propeller, usually through a reduction gearbox. Although the engine contains turbine components, much of the forward thrust comes from the propeller moving a large mass of air. Turboprop aircraft are frequently used on shorter routes, where lower cruising speeds may be acceptable and fuel efficiency at appropriate altitudes and speeds can be attractive. Their performance can also be valuable at some smaller airports, although actual takeoff and landing limits remain aircraft-specific.",
+        "zh": null
+      },
+      {
+        "en": "A turbofan engine also contains a gas turbine, but it drives a large fan at the front. In many modern airliners, a substantial portion of the thrust comes from the airflow passing around the engine core. This arrangement helps turbofan aircraft operate efficiently at the higher cruise speeds and altitudes typical of medium- and long-distance airline service. The engine, wing, and airframe are designed together to meet the mission requirements.",
+        "zh": null
+      },
+      {
+        "en": "It would be incorrect to claim that one propulsion system is always better. On a short regional sector, an aircraft with a slower cruise speed may still offer a competitive total journey time because climb, descent, taxi, and airport operations occupy a significant share of the flight. On a much longer sector, higher cruise speed can become increasingly important for scheduling and aircraft utilization.",
+        "zh": null
+      },
+      {
+        "en": "Pilots also encounter different operating characteristics. Propeller effects, engine indications, performance planning, and abnormal procedures vary by aircraft type. Even aircraft that perform the same commercial task may require different techniques and training.",
+        "zh": null
+      },
+      {
+        "en": "The broader lesson is that aircraft design is a series of trade-offs. An aircraft that excels on one route may be poorly matched to another. Understanding why an airline chooses a particular aircraft helps connect aerodynamics and engineering to the economic realities of commercial aviation.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "propulsion",
+    "turboprop",
+    "turbofan",
+    "aircraft"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

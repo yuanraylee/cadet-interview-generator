@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0018",
+  "title": "Four Ways Aviation Weather Is Observed",
+  "category": "aviation-knowledge",
+  "subcategory": "weather",
+  "displayCategory": "PHAK · Weather",
+  "difficulty": "basic",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 13, pp. 13-2–13-4",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Aviation weather information begins with observations made by several different systems. Surface observations describe conditions near airports, including wind, visibility, clouds, temperature, and atmospheric pressure. These reports are particularly useful for departures and arrivals, but they represent limited areas.",
+        "zh": null
+      },
+      {
+        "en": "Upper-air observations provide information about atmospheric conditions above the surface. Weather balloons, instruments carried by aircraft, and other methods help describe vertical changes in temperature, moisture, and wind. This information supports forecasts that pilots use for route planning and altitude selection.",
+        "zh": null
+      },
+      {
+        "en": "Radar observations reveal the location and intensity of precipitation. Radar can help track the development and movement of showers or thunderstorms, although some hazards may not be directly detected. Satellite observations offer a broader view of cloud patterns and large weather systems, including areas where ground observations are sparse.",
+        "zh": null
+      },
+      {
+        "en": "No single observation system provides a complete picture. Forecasters combine these sources with models and human analysis to understand current conditions and predict how the atmosphere may change. Pilots likewise benefit from comparing more than one source when preparing for a flight.",
+        "zh": null
+      },
+      {
+        "en": "Each system has strengths and limitations. Recognizing those differences helps users interpret weather information carefully instead of assuming that a single chart or image explains every hazard.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "weather",
+    "four",
+    "ways",
+    "aviation"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

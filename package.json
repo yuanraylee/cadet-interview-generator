@@ -1,0 +1,15 @@
+{
+  "name": "cadet-interview-generator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static cadet interview practice generator and article library tooling.",
+  "scripts": {
+    "validate:articles": "node scripts/validate-articles.js",
+    "build:articles": "node scripts/build-article-bank.js",
+    "check:articles": "node scripts/validate-articles.js && node scripts/build-article-bank.js --check",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

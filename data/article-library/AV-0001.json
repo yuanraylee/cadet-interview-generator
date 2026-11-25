@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0001",
+  "title": "Why an Aircraft Can Stall at Different Airspeeds",
+  "category": "aviation-knowledge",
+  "subcategory": "aerodynamics",
+  "displayCategory": "PHAK / Aerodynamics",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "original",
+    "name": "Original educational practice passage",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational practice passage migrated from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "The word stall is often associated with an aircraft flying too slowly. That explanation is convenient for beginners, but it does not describe the complete aerodynamic principle. A wing stalls when its angle of attack exceeds a critical value and the airflow can no longer follow the upper surface as intended. The result is a substantial loss of lift and often an increase in drag. This can happen at different airspeeds depending on the aircraft's operating condition.",
+        "zh": null
+      },
+      {
+        "en": "In straight and level flight, the pilot usually associates a particular indicated airspeed with the onset of a stall. However, a steep turn introduces an important complication. The wings must generate enough lift not only to support the aircraft's weight but also to produce the horizontal component needed for the turn. As bank angle increases, load factor rises. The airplane therefore needs a higher indicated airspeed to maintain the same margin above a stall. This relationship explains why an accelerated stall can occur even when the airspeed looks comfortably above the familiar wings-level stall speed.",
+        "zh": null
+      },
+      {
+        "en": "Aircraft configuration matters as well. Extending flaps generally changes the shape of the wing and can reduce stall speed, although the exact effect depends on the design and selected flap setting. Ice contamination can have the opposite effect. It changes the shape and roughness of the aerodynamic surface, potentially reducing the maximum lift available and making the aircraft less predictable near the stall.",
+        "zh": null
+      },
+      {
+        "en": "Modern aircraft may provide stall-warning systems, stick shakers, or other protections, but these features do not replace an understanding of the underlying physics. The correct response also depends on aircraft type and the applicable flight manual. As a general aerodynamic principle, reducing the excessive angle of attack is essential to recovering lift.",
+        "zh": null
+      },
+      {
+        "en": "For a pilot, the practical lesson is to think beyond the number displayed on the airspeed indicator. Bank angle, configuration, load factor, and contamination all affect the conditions in which a stall may occur. Recognizing these relationships supports better situational awareness and safer decision-making.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aerodynamics",
+    "aircraft",
+    "stall",
+    "different"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

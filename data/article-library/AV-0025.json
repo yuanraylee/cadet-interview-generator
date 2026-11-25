@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0025",
+  "title": "Why a Slow Aircraft Can Produce More Induced Drag",
+  "category": "aviation-knowledge",
+  "subcategory": "aerodynamics",
+  "displayCategory": "PHAK · Aerodynamics",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 5, pp. 5-6–5-8",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Drag is often associated with high speed, because moving faster through the air usually increases parasite drag. However, a pilot can also encounter substantial drag when flying relatively slowly. The reason is induced drag, which arises from the process of producing lift.",
+        "zh": null
+      },
+      {
+        "en": "In level flight, lift must balance weight. When the aircraft slows down, the wing generally needs a greater coefficient of lift to support the same weight. The pilot accomplishes this by increasing angle of attack within the wing's operating range. Higher lift requirements increase the strength of the aerodynamic effects associated with wingtip vortices and downwash, making induced drag more significant.",
+        "zh": null
+      },
+      {
+        "en": "Parasite drag behaves differently. It includes form drag, skin friction, and interference drag, and it generally becomes larger as speed increases. When the two components are added together, the result is a total-drag curve with a region where drag is relatively low. The exact curve depends on the aircraft's configuration, weight, and other conditions.",
+        "zh": null
+      },
+      {
+        "en": "This relationship is important during climbs and glides. A pilot cannot always improve performance simply by slowing down. Flying too slowly may increase induced drag and reduce the ability to maintain the desired flight path.",
+        "zh": null
+      },
+      {
+        "en": "Understanding induced drag therefore helps explain a seemingly surprising fact: slow flight can demand considerable power, and precise speed control is an important part of managing aircraft energy.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aerodynamics",
+    "slow",
+    "aircraft",
+    "produce"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0022",
+  "title": "High-Lift Devices During Takeoff and Landing",
+  "category": "aviation-knowledge",
+  "subcategory": "aircraft-systems",
+  "displayCategory": "PHAK · Aircraft Systems",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "adapted",
+    "name": "FAA PHAK, Chapter 6, pp. 6-8–6-10; Chapter 5, pp. 5-49–5-50",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational adaptation; the source citation is retained from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Airplane wings are designed to perform across several flight conditions, but the shape best suited to efficient cruising is not necessarily ideal for a low-speed approach. High-lift devices help solve this problem by changing the wing's aerodynamic characteristics when pilots need additional lift at relatively low speeds.",
+        "zh": null
+      },
+      {
+        "en": "Trailing-edge flaps are common high-lift devices. Depending on their design and setting, extending flaps changes the wing's effective camber and often increases its maximum lift coefficient. This may reduce the speed required for a given flight condition, although drag also increases. Different flap settings are therefore used for takeoff and landing according to the aircraft's approved procedures.",
+        "zh": null
+      },
+      {
+        "en": "Leading-edge devices, such as slats, can help delay airflow separation at higher angles of attack. They are particularly useful on aircraft designed to cruise efficiently at high speed. Some large aircraft combine several types of high-lift devices to balance takeoff performance, approach speed, drag, and controllability.",
+        "zh": null
+      },
+      {
+        "en": "These systems introduce important operating limitations. Crews must respect published flap speeds and monitor the aircraft's configuration. A failure or disagreement in the high-lift system may require revised performance calculations, a different approach speed, and the appropriate checklist.",
+        "zh": null
+      },
+      {
+        "en": "High-lift devices illustrate a basic engineering trade-off: an airplane must operate safely and efficiently at different speeds, and a changeable wing configuration can help meet those competing requirements.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "aircraft-systems",
+    "high-lift",
+    "devices",
+    "takeoff"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}

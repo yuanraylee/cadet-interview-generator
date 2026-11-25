@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "id": "AV-0004",
+  "title": "How Airlines Plan for the Arrival of a New Aircraft Type",
+  "category": "aviation-industry",
+  "subcategory": "fleet-planning",
+  "displayCategory": "Aviation Industry",
+  "difficulty": "intermediate",
+  "status": "published",
+  "source": {
+    "type": "original",
+    "name": "Original educational practice passage",
+    "url": null,
+    "publishedDate": null,
+    "accessedDate": null,
+    "rightsNote": "Original educational practice passage migrated from the legacy article bank."
+  },
+  "content": {
+    "paragraphs": [
+      {
+        "en": "Introducing a new aircraft type is more complicated than ordering the aircraft and announcing a route. Airlines must prepare pilots, maintenance technicians, cabin crews, dispatchers, and ground teams before the first passenger flight. The project also involves regulators, airports, manufacturers, and suppliers. A delivery date is therefore only one milestone in a much larger operational transition.",
+        "zh": null
+      },
+      {
+        "en": "Flight crews require training that is appropriate to the aircraft and their previous qualifications. This may involve ground school, procedures training, simulator sessions, and supervised line operations. An airline must also establish manuals and standard operating procedures that are compatible with regulatory requirements and the aircraft's design. Commonality with aircraft already in service may simplify some tasks, but it does not eliminate the need for a structured training program.",
+        "zh": null
+      },
+      {
+        "en": "Maintenance preparation begins well before aircraft arrival. Engineers and technicians need access to documentation, specialized tools, spare parts, and approved maintenance programs. The airline must understand how the new type will fit into its existing facilities and how technical problems will be handled away from its main base. Even a small shortage of a critical component can affect flight schedules.",
+        "zh": null
+      },
+      {
+        "en": "Airport compatibility is another important consideration. Aircraft dimensions, maximum weight, pavement strength, gate geometry, servicing equipment, and rescue capabilities may limit where a new type can operate. Route planners must also study range, payload, weather conditions, and the expected number of passengers. The most advanced aircraft is not necessarily the best choice for every destination.",
+        "zh": null
+      },
+      {
+        "en": "A new fleet can create opportunities for lower fuel consumption, new routes, and improved passenger experience. At the same time, it adds financial and operational risks during the transition. Airlines therefore often introduce the aircraft progressively rather than changing their entire operation at once.",
+        "zh": null
+      },
+      {
+        "en": "For future pilots, fleet introduction provides a useful lesson about teamwork. A safe and reliable passenger flight is the visible result of many specialists coordinating behind the scenes. Standardization, training, and careful preparation make an ambitious technological change manageable.",
+        "zh": null
+      }
+    ]
+  },
+  "tags": [
+    "fleet-planning",
+    "airlines",
+    "plan",
+    "arrival"
+  ],
+  "review": {
+    "english": true,
+    "translation": false,
+    "facts": true,
+    "copyright": true
+  }
+}
