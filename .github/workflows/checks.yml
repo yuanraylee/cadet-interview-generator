@@ -1,0 +1,23 @@
+name: Project Checks
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+      - name: Install locked development dependencies
+        run: npm ci
+      - name: Validate committed article data
+        run: npm run articles:check
+      - name: Run project checks
+        run: npm test

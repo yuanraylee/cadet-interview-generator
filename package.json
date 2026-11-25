@@ -4,10 +4,13 @@
   "description": "Static cadet-pilot interview practice website with offline reading, ATC, and question exercises.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:atc && npm run test:pronunciation",
+    "test": "npm run test:articles && npm run test:atc && npm run test:pronunciation",
+    "test:articles": "node --test tests/articles.test.cjs",
     "test:atc": "node tests/atc-difficulty.test.cjs",
     "test:pronunciation": "node tests/pronunciation.test.cjs",
-    "articles:build": "node scripts/build-article-bank.js"
+    "articles:validate": "node scripts/validate-articles.js",
+    "articles:build": "node scripts/build-article-bank.js",
+    "articles:check": "node scripts/validate-articles.js && node scripts/build-article-bank.js --check"
   },
   "repository": {
     "type": "git",

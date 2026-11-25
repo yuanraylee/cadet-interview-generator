@@ -1,32 +1,76 @@
 #!/usr/bin/env node
-// Rebuild browser-compatible JS from the local JSON article library.
-// Run: node scripts/build-article-bank.js
+'use strict';
+
 const fs = require('node:fs');
 const path = require('node:path');
-const root = path.resolve(__dirname, '..');
-const dbDir = path.join(root,'data','article-library');
-const manifest = JSON.parse(fs.readFileSync(path.join(dbDir,'index.json'),'utf8'));
-const articles = [];
-const extraArticles = [];
-const translations = {};
-const ids = new Set(), titles = new Set();
-for (const item of manifest.articles) {
-  const record = JSON.parse(fs.readFileSync(path.join(dbDir,item.file),'utf8'));
-  if (!record.id || ids.has(record.id) || !record.title || titles.has(record.title)) throw Error('Duplicate or missing id/title: '+record.id);
-  ids.add(record.id);titles.add(record.title);
-  if (!Array.isArray(record.paragraphs) || !record.paragraphs.length) throw Error('No paragraphs: '+record.id);
-  if (record.paragraphs.some(p => !p.en || typeof p.en !== 'string')) throw Error('Missing English paragraph: '+record.id);
-  const en = record.paragraphs.map(p=>p.en);
-  const zh = record.paragraphs.map(p=>p.zh);
-  if (zh.some(v=>typeof v!=='string' || !v.trim())) throw Error('Missing translation: '+record.id);
-  const article = {category:record.category,title:record.title,body:en.join('\n\n')};
-  if (record.source) article.source = record.source;
-  // Preserve any additional metadata present in the legacy bank.
-  for (const [k,v] of Object.entries(record.additionalFields || {})) article[k]=v;
-  if (record.bank === "extra") extraArticles.push(article); else articles.push(article);
-  translations[record.title]=zh;
+const { readLibrary } = require('./validate-articles.js');
+
+const ROOT = path.resolve(__dirname, '..');
+const LIBRARY = path.join(ROOT, 'data', 'article-library');
+const GENERATED_NOTICE = '// GENERATED FILE. Edit data/article-library/*.json then run: node scripts/build-article-bank.js\n';
+
+function renderOutputs(articles) {
+  const primary = [];
+  const extra = [];
+  const translations = {};
+
+  for (const record of articles) {
+    const article = {
+      category: record.category,
+      title: record.title,
+      body: record.paragraphs.map((paragraph) => paragraph.en).join('\n\n')
+    };
+    if (record.source) article.source = record.source;
+    if (record.bank === 'extra') extra.push(article);
+    else primary.push(article);
+    translations[record.title] = record.paragraphs.map((paragraph) => paragraph.zh);
+  }
+
+  return new Map([
+    [
+      path.join(ROOT, 'data', 'articles.js'),
+      GENERATED_NOTICE +
+        `window.OFFLINE_ARTICLES = ${JSON.stringify(primary, null, 2)};\n` +
+        `window.CADET_EXTRA_ARTICLES = ${JSON.stringify(extra, null, 2)};\n`
+    ],
+    [
+      path.join(ROOT, 'data', 'reading-translations.js'),
+      GENERATED_NOTICE +
+        `window.CADET_ARTICLE_TRANSLATIONS = ${JSON.stringify(translations, null, 2)};\n`
+    ]
+  ]);
 }
-const generated = '// GENERATED FILE. Edit data/article-library/*.json then run: node scripts/build-article-bank.js\n';
-fs.writeFileSync(path.join(root,'data','articles.js'),generated+'window.OFFLINE_ARTICLES = '+JSON.stringify(articles,null,2)+';\nwindow.CADET_EXTRA_ARTICLES = '+JSON.stringify(extraArticles,null,2)+';\n');
-fs.writeFileSync(path.join(root,'data','reading-translations.js'),generated+'window.CADET_ARTICLE_TRANSLATIONS = '+JSON.stringify(translations,null,2)+';\n');
-console.log(`Built ${articles.length + extraArticles.length} articles and their aligned translations.`);
+
+function main() {
+  const checkOnly = process.argv.includes('--check');
+  const result = readLibrary(LIBRARY);
+  if (result.errors.length) {
+    console.error(`Article validation failed with ${result.errors.length} error(s):`);
+    for (const error of result.errors) console.error(`- ${error}`);
+    process.exitCode = 1;
+    return;
+  }
+
+  const outputs = renderOutputs(result.articles);
+  const stale = [];
+  for (const [filename, expected] of outputs) {
+    const current = fs.existsSync(filename) ? fs.readFileSync(filename, 'utf8') : null;
+    if (current !== expected) stale.push(path.relative(ROOT, filename));
+    if (!checkOnly) fs.writeFileSync(filename, expected);
+  }
+
+  if (checkOnly && stale.length) {
+    console.error(`Generated article output is stale: ${stale.join(', ')}`);
+    console.error('Run npm run articles:build and commit the regenerated files.');
+    process.exitCode = 1;
+    return;
+  }
+
+  const primary = result.articles.filter((article) => article.bank === 'primary').length;
+  if (checkOnly) console.log(`Generated article bank is current (${result.articles.length} articles).`);
+  else console.log(`Built ${result.articles.length} bilingual articles (${primary} primary, ${result.articles.length - primary} extra).`);
+}
+
+if (require.main === module) main();
+
+module.exports = { renderOutputs };

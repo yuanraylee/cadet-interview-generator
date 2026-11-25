@@ -14,7 +14,13 @@ Node.js is required for the checks and article-bank builder. From the project ro
 npm test
 ```
 
-The ATC check generates randomized examples and checks the declared difficulty counts and scenario profiles. The pronunciation check covers the written pronunciation hints. These checks do not certify a real-world clearance or replace review against current aviation publications.
+This runs the article-library regression tests, randomized ATC checks, and pronunciation checks. The article tests validate all 27 bilingual source files, compare them with the migration hashes, and confirm that the generated browser files still expose the globals used by the existing UI. The ATC and pronunciation checks do not certify a real-world clearance or replace review against current aviation publications.
+
+Validate the editable article source and confirm that generated files are current:
+
+```bash
+npm run articles:check
+```
 
 Rebuild the browser article files after editing the article JSON:
 
@@ -33,7 +39,11 @@ npm run articles:build
 | `js/ui/` | Rendering, answer controls, language, reading aids, and export |
 | `js/utils/helpers.js` | Shared random, DOM, formatting, and application state helpers |
 | `data/article-library/*.json` | Editable source articles and paragraph-aligned translations |
+| `data/article-library/index.json` | Ordered article manifest and metadata cross-check |
 | `data/articles.js`, `data/reading-translations.js` | Generated browser data; do not edit by hand |
+| `schemas/article.schema.json` | Article record contract for IDs, review state, banks, and bilingual paragraphs |
+| `scripts/validate-articles.js` | Cross-file, manifest, duplicate-content, and word-count validation |
+| `scripts/build-article-bank.js` | Validates sources and rebuilds the existing browser globals |
 | `data/atc*.js` | ATC scenario templates and the synthetic Hard scenario catalog |
 | `data/aviation-glossary*.js`, `data/reading-vocabulary.js` | Curated reading aids and aviation glossary content |
 | `tests/` | Node-based ATC and pronunciation checks |
@@ -45,10 +55,16 @@ Scripts in `index.html` use classic browser globals, so their order matters. Kee
 
 ## Update the article library
 
-1. Edit or add a record in `data/article-library/` using the existing JSON format.
-2. Add new filenames to `data/article-library/index.json`.
-3. Run `npm run articles:build` to regenerate the browser data files.
-4. Keep each English and Chinese paragraph paired at the same array index. Titles should remain stable because curated vocabulary entries refer to article titles.
+The JSON files in `data/article-library/` are the source of truth. `data/articles.js` and `data/reading-translations.js` remain browser-compatible generated outputs so the current static UI does not need a server or a runtime build step.
+
+1. Edit or add `article-NNN.json` using `schemas/article.schema.json` as the contract.
+2. Add the matching ID, filename, title, and category to `data/article-library/index.json` in display order.
+3. Keep every English paragraph paired with a non-empty Traditional Chinese paragraph at the same array index.
+4. Use `reviewStatus: "draft"` while editing. `legacy-imported` identifies the migrated desktop collection; `reviewed` and `published` require a non-empty source.
+5. Run `npm run articles:validate`, then `npm run articles:build`.
+6. Run `npm test` before committing. The generated files must also pass `npm run articles:check`.
+
+IDs and titles must be unique. Article filenames must match their IDs, English articles must contain 100–500 words, every JSON file must appear exactly once in the manifest, and normalized duplicate English content is rejected. Titles should remain stable because curated vocabulary entries refer to article titles.
 
 ## ATC content and accuracy scope
 
