@@ -1,0 +1,26 @@
+{
+  "id": "article-016",
+  "title": "How Runways Receive Their Numbers",
+  "category": "PHAK · Airport Operations",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 14, p. 14-8",
+  "paragraphs": [
+    {
+      "en": "Runway numbers help pilots identify the direction in which a runway is aligned. The number generally corresponds to its magnetic direction rounded to the nearest ten degrees, with the final zero omitted. For example, a runway aligned near 090 degrees may be labeled Runway 09.",
+      "zh": "跑道編號有助於辨識跑道的大致方向。編號通常是跑道磁方向四捨五入至最近的十度後，省略尾端的零。例如，磁方向接近 090 度的跑道可標示為 09。"
+    },
+    {
+      "en": "Because the same pavement can be used in opposite directions, the runway numbers at its two ends are normally eighteen numbers apart. A runway labeled 09 at one end is generally labeled 27 at the other. Airports with parallel runways use letters such as L, C, and R to distinguish left, center, and right.",
+      "zh": "同一條跑道可以從相反方向使用，因此兩端編號通常相差 18。某一端是 09，另一端通常就是 27。平行跑道則使用 L、C、R 等字母區分左、中、右。"
+    },
+    {
+      "en": "Runway designations can change when the local magnetic reference changes sufficiently over time. Pilots must therefore use current airport information rather than assuming that a runway will keep the same number forever.",
+      "zh": "當當地磁方位參考隨時間變化到足夠程度時，跑道編號也可能改變。機師必須使用最新機場資料，不能假設編號永遠固定。"
+    },
+    {
+      "en": "Understanding runway numbering helps crews interpret clearances and charts, but the designation alone does not describe the airport's complete departure or approach procedures.",
+      "zh": "理解跑道編號有助於解讀許可與航圖，但編號本身無法說明機場完整的離場或進場程序。"
+    }
+  ]
+}

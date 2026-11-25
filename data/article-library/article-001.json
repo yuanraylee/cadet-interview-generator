@@ -1,0 +1,30 @@
+{
+  "id": "article-001",
+  "title": "Why an Aircraft Can Stall at Different Airspeeds",
+  "category": "PHAK / Aerodynamics",
+  "bank": "primary",
+  "reviewStatus": "legacy-imported",
+  "source": "",
+  "paragraphs": [
+    {
+      "en": "The word stall is often associated with an aircraft flying too slowly. That explanation is convenient for beginners, but it does not describe the complete aerodynamic principle. A wing stalls when its angle of attack exceeds a critical value and the airflow can no longer follow the upper surface as intended. The result is a substantial loss of lift and often an increase in drag. This can happen at different airspeeds depending on the aircraft's operating condition.",
+      "zh": "失速常被理解成飛機飛得太慢。這種說法容易讓初學者理解，卻無法完整說明空氣動力原理。當機翼的攻角超過臨界值，氣流無法按預期貼附流過機翼上表面時，就會失速。結果是升力大幅減少，阻力也常隨之增加。視飛機操作狀態而定，失速可能在不同空速發生。"
+    },
+    {
+      "en": "In straight and level flight, the pilot usually associates a particular indicated airspeed with the onset of a stall. However, a steep turn introduces an important complication. The wings must generate enough lift not only to support the aircraft's weight but also to produce the horizontal component needed for the turn. As bank angle increases, load factor rises. The airplane therefore needs a higher indicated airspeed to maintain the same margin above a stall. This relationship explains why an accelerated stall can occur even when the airspeed looks comfortably above the familiar wings-level stall speed.",
+      "zh": "在平直飛行中，機師通常會把某個指示空速和失速開始聯想在一起。然而，大坡度轉彎帶來重要差異：機翼不僅要產生支撐重量的升力，也要產生轉彎所需的水平分力。坡度增加時，負載因數也提高，因此飛機必須以較高的指示空速，才能維持相同的失速裕度。這說明為何即使空速高於熟悉的平飛失速速度，仍可能發生加速失速。"
+    },
+    {
+      "en": "Aircraft configuration matters as well. Extending flaps generally changes the shape of the wing and can reduce stall speed, although the exact effect depends on the design and selected flap setting. Ice contamination can have the opposite effect. It changes the shape and roughness of the aerodynamic surface, potentially reducing the maximum lift available and making the aircraft less predictable near the stall.",
+      "zh": "飛機構型也很重要。放下襟翼通常會改變機翼形狀，並可能降低失速速度，但實際影響取決於設計與襟翼位置。機翼結冰則可能產生相反效果：它改變翼面的形狀與粗糙度，可能降低最大升力，使飛機在接近失速時更難預測。"
+    },
+    {
+      "en": "Modern aircraft may provide stall-warning systems, stick shakers, or other protections, but these features do not replace an understanding of the underlying physics. The correct response also depends on aircraft type and the applicable flight manual. As a general aerodynamic principle, reducing the excessive angle of attack is essential to recovering lift.",
+      "zh": "現代飛機可能配備失速警告、操縱桿震動器或其他保護系統，但這些功能不能取代對基礎物理的理解。正確處置仍取決於機型及適用的飛行手冊。從一般空氣動力原則而言，減小過大的攻角，是恢復升力的核心。"
+    },
+    {
+      "en": "For a pilot, the practical lesson is to think beyond the number displayed on the airspeed indicator. Bank angle, configuration, load factor, and contamination all affect the conditions in which a stall may occur. Recognizing these relationships supports better situational awareness and safer decision-making.",
+      "zh": "對機師而言，實務上的教訓是不要只看空速表上的數字。坡度、構型、負載因數與翼面污染，都會影響可能發生失速的條件。了解這些關係有助於提升情境意識，並作出更安全的決策。"
+    }
+  ]
+}

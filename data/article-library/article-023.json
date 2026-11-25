@@ -1,0 +1,30 @@
+{
+  "id": "article-023",
+  "title": "What a Pilot Learns from a GPS Position",
+  "category": "PHAK · Navigation",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 16, pp. 16-30–16-32",
+  "paragraphs": [
+    {
+      "en": "The Global Positioning System uses signals transmitted by satellites to help a receiver determine its position and time. Modern aircraft commonly integrate satellite navigation into flight management and navigation systems, allowing crews to follow approved routes and procedures with accurate position information.",
+      "zh": "全球定位系統（GPS）利用衛星發出的訊號，協助接收器測定位置與時間。現代飛機常把衛星導航整合進飛航管理及導航系統，使機組能根據精確位置資訊沿核准航路與程序飛行。"
+    },
+    {
+      "en": "A receiver estimates its position by processing signals from multiple satellites. The system's usefulness depends on more than the satellites themselves. Equipment capability, antenna reception, database currency, integrity monitoring, and applicable operating approvals all influence what pilots can safely do with the information.",
+      "zh": "接收器處理多顆衛星訊號來估計位置，但實用性不只取決於衛星本身。設備能力、天線接收狀況、資料庫更新程度、完整性監控及適用的操作核准，都會影響機師能安全使用資訊的範圍。"
+    },
+    {
+      "en": "GPS can provide useful position, ground speed, and course-over-ground information. However, a receiver's track over the ground should not be confused with the aircraft's magnetic heading. In a crosswind, the nose may point in one direction while the aircraft moves across the ground in another. Understanding this distinction helps pilots interpret navigation displays correctly.",
+      "zh": "GPS 可提供位置、地速及地面航跡等資訊，但地面航跡不能與磁航向混為一談。存在側風時，機鼻可能指向一個方向，飛機卻沿另一方向相對地面移動。理解這項差異有助於正確判讀導航顯示。"
+    },
+    {
+      "en": "Not every GPS installation is approved for every type of instrument approach. Crews must verify the aircraft equipment and the procedure requirements. They must also consider possible signal interference, loss of integrity, and the availability of alternative navigation methods.",
+      "zh": "不是所有 GPS 設備都獲准執行各種儀器進場。機組必須確認機載設備與程序要求，並考慮訊號干擾、完整性喪失及替代導航方式是否可用。"
+    },
+    {
+      "en": "Satellite navigation has made many flight operations more flexible, but its advantages depend on disciplined use. Pilots still need situational awareness, knowledge of system limitations, and the ability to recognize when displayed information may be unreliable.",
+      "zh": "衛星導航讓許多飛航作業更有彈性，但要發揮優勢仍須有紀律地使用。機師需要維持情境意識、理解系統限制，並能辨識顯示資訊可能不可靠的情況。"
+    }
+  ]
+}

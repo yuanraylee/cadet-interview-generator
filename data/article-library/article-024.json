@@ -1,0 +1,30 @@
+{
+  "id": "article-024",
+  "title": "Surface, Upper-Air, Radar and Satellite Weather Data",
+  "category": "PHAK · Weather",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 13, pp. 13-2–13-4",
+  "paragraphs": [
+    {
+      "en": "Aviation forecasts rely on observations collected from different parts of the atmosphere. Surface stations report conditions close to the ground, including wind, visibility, temperature, clouds, and pressure. These measurements are especially useful near airports, but a single station cannot describe the entire route between departure and destination.",
+      "zh": "航空天氣預報依靠大氣不同層面的觀測。地面測站回報近地面的風、能見度、氣溫、雲況與氣壓，對機場周邊很重要，但單一測站無法描述起點與目的地之間的整條航路。"
+    },
+    {
+      "en": "Upper-air data helps describe what is happening above the surface. Weather balloons and instruments carried by aircraft provide information about wind, temperature, and moisture at different altitudes. Such observations help forecasters identify atmospheric layers, jet streams, and changes that may influence turbulence or icing.",
+      "zh": "高空資料描述地表以上的情況。氣象氣球及機載儀器提供不同高度的風、氣溫和水氣資訊，協助預報人員辨識大氣層結、噴射氣流及可能影響亂流或結冰的變化。"
+    },
+    {
+      "en": "Weather radar detects precipitation by measuring reflected radio signals. It is useful for locating and tracking rain and storm systems, but the strength of a radar return should not be treated as a direct measurement of every turbulence hazard. Some dangerous conditions may exist outside areas of strong precipitation.",
+      "zh": "氣象雷達透過測量反射的無線電訊號偵測降水，適合定位與追蹤降雨、雷暴系統，但雷達回波強度不能直接等同所有亂流危害。有些危險情況可能出現在強降水區以外。"
+    },
+    {
+      "en": "Satellite imagery offers a wider geographical view. It is particularly valuable where ground observation networks are limited, and it can show cloud systems extending across large regions. Its limitations depend on the type of image and sensor being used.",
+      "zh": "衛星影像提供更廣泛的地理視角，尤其在地面觀測網不足的區域很有價值，還能顯示跨越廣大地區的雲系；其限制則取決於使用的影像種類與感測器。"
+    },
+    {
+      "en": "Forecasters combine these different observations with models and professional interpretation. Pilots should also compare several information sources rather than depending on a single weather display. The objective is not to collect as much information as possible, but to understand the operational significance of the information available.",
+      "zh": "預報人員結合不同觀測、模型及專業判讀。機師也應比較多種資訊來源，而非依賴單一氣象顯示。目標不是盡可能蒐集大量資料，而是理解可用資訊對飛行操作的實際意義。"
+    }
+  ]
+}

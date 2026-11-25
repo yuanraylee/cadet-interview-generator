@@ -1,0 +1,28 @@
+{
+  "name": "cadet-interview-generator",
+  "version": "1.0.0",
+  "description": "Static cadet-pilot interview practice website with offline reading, ATC, and question exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:atc && npm run test:pronunciation",
+    "test:atc": "node tests/atc-difficulty.test.cjs",
+    "test:pronunciation": "node tests/pronunciation.test.cjs",
+    "articles:build": "node scripts/build-article-bank.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanraylee/cadet-interview-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yuanraylee/cadet-interview-generator/issues"
+  },
+  "homepage": "https://github.com/yuanraylee/cadet-interview-generator#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.10"
+  }
+}

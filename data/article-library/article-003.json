@@ -1,0 +1,34 @@
+{
+  "id": "article-003",
+  "title": "What Makes Wind Shear Dangerous Near the Ground?",
+  "category": "Aviation Science",
+  "bank": "primary",
+  "reviewStatus": "legacy-imported",
+  "source": "",
+  "paragraphs": [
+    {
+      "en": "Wind shear is a change in wind speed, wind direction, or both over a relatively short distance. An aircraft may encounter it at any altitude, but it deserves particular attention close to the ground. During takeoff and landing, pilots have less height and time available to recognize unexpected changes in performance and respond appropriately.",
+      "zh": "風切是指風速、風向或兩者在相對短的距離內發生變化。飛機在任何高度都可能遇到，但接近地面時尤其需要注意。起飛與落地階段的高度和反應時間有限，機師較難從容辨識突如其來的性能變化並妥善處置。"
+    },
+    {
+      "en": "A thunderstorm can produce one especially hazardous form of wind shear: a microburst. In this phenomenon, a strong downdraft reaches the ground and spreads outward. An aircraft flying through the affected area may first encounter a headwind that temporarily increases indicated airspeed and lift. Moments later, it can encounter a downdraft followed by a tailwind. The combined changes can produce a rapid loss of performance at a very unfavorable moment.",
+      "zh": "雷暴可能產生一種特別危險的風切：微下擊暴流。強烈下沉氣流抵達地面後向四周擴散。飛機穿越受影響區域時，可能先遇到逆風，使指示空速與升力暫時增加；片刻後又遭遇下沉氣流及順風。這些變化可能在極不利的時機造成飛行性能迅速下降。"
+    },
+    {
+      "en": "The danger is not limited to thunderstorms. Terrain, frontal boundaries, temperature inversions, and other weather conditions can also create sharp changes in the wind. Some airports use ground-based wind-shear detection equipment, while certain aircraft carry systems designed to warn crews of potential or encountered wind shear. These technologies are helpful, but none of them makes every hazardous event completely predictable.",
+      "zh": "危險不只來自雷暴。地形、鋒面邊界、逆溫層等天氣條件，也會造成風的急遽變化。部分機場配有地面風切偵測設備，某些飛機則搭載可警告潛在或已遭遇風切的系統。這些技術雖有幫助，卻無法預測所有危險事件。"
+    },
+    {
+      "en": "Good decision-making begins before a warning sounds. Crews monitor weather observations, forecasts, pilot reports, and available airport alerts. They also consider whether a safer delay, diversion, or different approach is appropriate. During an encounter, pilots follow the procedures specified for their aircraft rather than improvising based on a single instrument indication.",
+      "zh": "良好的決策始於警報響起之前。機組持續監看天氣觀測、預報、機師報告和機場警示，並評估延後起飛、備降或改用其他進場方式是否更安全。實際遇到風切時，應遵循機型指定程序，而非只憑某個儀表讀數臨場猜測。"
+    },
+    {
+      "en": "Wind shear demonstrates why aviation safety requires several layers of protection. Meteorological knowledge can help crews avoid dangerous conditions. Airport sensors and onboard equipment can improve awareness. Training and standard procedures can help crews respond when avoidance is no longer possible.",
+      "zh": "風切說明航空安全為何需要多層防護。氣象知識能協助避開危險；機場感測器與機載設備能提升警覺；訓練及標準程序則協助機組在無法避開時應對。"
+    },
+    {
+      "en": "For someone learning aviation, the most important point is the relationship between energy, flight path, and time. Near the runway, a sudden change in the surrounding air mass may leave little room for recovery. Understanding the threat before entering that environment is therefore essential.",
+      "zh": "對航空學習者而言，最關鍵的是理解能量、飛行軌跡與時間的關係。在跑道附近，周圍氣團突然改變，可能讓飛機幾乎沒有恢復餘地，因此進入該環境前就必須了解風險。"
+    }
+  ]
+}

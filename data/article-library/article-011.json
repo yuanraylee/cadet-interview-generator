@@ -1,0 +1,26 @@
+{
+  "id": "article-011",
+  "title": "The Difference Between Parasite and Induced Drag",
+  "category": "PHAK · Aerodynamics",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 5, pp. 5-6–5-8",
+  "paragraphs": [
+    {
+      "en": "An airplane experiences drag whenever it moves through the air. Two major categories are parasite drag and induced drag. Parasite drag comes from the aircraft moving through the atmosphere. It includes form drag, interference drag, and skin friction. In general, parasite drag increases as airspeed rises.",
+      "zh": "飛機在空氣中移動就會受到阻力。兩大類阻力是寄生阻力與誘導阻力。寄生阻力來自機體穿越大氣，包括形狀阻力、干擾阻力及表面摩擦阻力。一般而言，空速愈高，寄生阻力愈大。"
+    },
+    {
+      "en": "Induced drag is different because it is associated with the production of lift. Wingtip vortices and downwash change the direction of the aerodynamic force acting on the wing. This creates a rearward component that contributes to drag. When an aircraft flies slowly while still supporting its weight, the wing requires a higher angle of attack and induced drag becomes more significant.",
+      "zh": "誘導阻力則與產生升力有關。翼尖渦流與下洗氣流改變作用在機翼上空氣動力的方向，產生向後的分力而形成阻力。當飛機以較低速度維持重量所需的升力時，機翼需要更高攻角，誘導阻力就會更顯著。"
+    },
+    {
+      "en": "The balance between these two forms of drag explains why aircraft have an airspeed at which total drag is relatively low. Pilots use the relationship to understand climb performance, glide performance, and energy management.",
+      "zh": "這兩種阻力的平衡，解釋了為何飛機會在某個空速附近具有相對低的總阻力。機師可利用這個關係理解爬升性能、滑翔性能及能量管理。"
+    },
+    {
+      "en": "Drag is therefore not a single force with one cause. Its components respond differently as airspeed and lift requirements change.",
+      "zh": "因此阻力不是只有單一來源的一種力；其不同成分會隨空速及升力需求的變化而有不同反應。"
+    }
+  ]
+}

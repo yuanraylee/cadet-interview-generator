@@ -1,0 +1,30 @@
+{
+  "id": "article-018",
+  "title": "Four Ways Aviation Weather Is Observed",
+  "category": "PHAK · Weather",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 13, pp. 13-2–13-4",
+  "paragraphs": [
+    {
+      "en": "Aviation weather information begins with observations made by several different systems. Surface observations describe conditions near airports, including wind, visibility, clouds, temperature, and atmospheric pressure. These reports are particularly useful for departures and arrivals, but they represent limited areas.",
+      "zh": "航空氣象資訊來自多種觀測系統。地面觀測提供機場附近的風、能見度、雲況、氣溫與氣壓，對起飛和抵達尤其有用，但代表的空間範圍有限。"
+    },
+    {
+      "en": "Upper-air observations provide information about atmospheric conditions above the surface. Weather balloons, instruments carried by aircraft, and other methods help describe vertical changes in temperature, moisture, and wind. This information supports forecasts that pilots use for route planning and altitude selection.",
+      "zh": "高空觀測提供地表以上的大氣資訊。氣象氣球、機載儀器等方法可描述氣溫、水氣與風隨高度的變化，支援機師用於航路規劃及高度選擇的天氣預報。"
+    },
+    {
+      "en": "Radar observations reveal the location and intensity of precipitation. Radar can help track the development and movement of showers or thunderstorms, although some hazards may not be directly detected. Satellite observations offer a broader view of cloud patterns and large weather systems, including areas where ground observations are sparse.",
+      "zh": "雷達觀測顯示降水的位置與強度，有助於追蹤陣雨或雷暴的發展和移動，但某些危害無法直接偵測。衛星觀測則能從更大範圍觀察雲系與天氣系統，尤其適用於地面觀測稀少的地區。"
+    },
+    {
+      "en": "No single observation system provides a complete picture. Forecasters combine these sources with models and human analysis to understand current conditions and predict how the atmosphere may change. Pilots likewise benefit from comparing more than one source when preparing for a flight.",
+      "zh": "沒有任何單一觀測系統能提供完整全貌。預報人員結合這些資料、模型及專業判斷，了解當前天氣並預測未來變化；機師在飛行準備時也應交叉比較不同資料來源。"
+    },
+    {
+      "en": "Each system has strengths and limitations. Recognizing those differences helps users interpret weather information carefully instead of assuming that a single chart or image explains every hazard.",
+      "zh": "各種系統都有優點與限制。理解差異有助於正確解讀氣象資訊，而不是認為一張圖表或影像就能解釋所有風險。"
+    }
+  ]
+}

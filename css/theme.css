@@ -16,7 +16,7 @@ html {
 body {
   background:var(--bg);
   color:var(--ink);
-  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Arial,"Noto Sans TC",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","PingFang TC","Helvetica Neue",Arial,"Noto Sans TC",sans-serif;
   font-size:15px;
   line-height:1.65;
   -webkit-font-smoothing:antialiased

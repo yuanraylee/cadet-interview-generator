@@ -1,0 +1,34 @@
+{
+  "id": "article-004",
+  "title": "How Airlines Plan for the Arrival of a New Aircraft Type",
+  "category": "Aviation Industry",
+  "bank": "primary",
+  "reviewStatus": "legacy-imported",
+  "source": "",
+  "paragraphs": [
+    {
+      "en": "Introducing a new aircraft type is more complicated than ordering the aircraft and announcing a route. Airlines must prepare pilots, maintenance technicians, cabin crews, dispatchers, and ground teams before the first passenger flight. The project also involves regulators, airports, manufacturers, and suppliers. A delivery date is therefore only one milestone in a much larger operational transition.",
+      "zh": "導入新機型不只是訂購飛機並公布航線。航空公司必須在首次載客前，讓機師、維修技師、客艙組員、簽派員及地勤人員做好準備；主管機關、機場、製造商與供應商也會參與。因此交機日期只是大型營運轉換計畫中的一個里程碑。"
+    },
+    {
+      "en": "Flight crews require training that is appropriate to the aircraft and their previous qualifications. This may involve ground school, procedures training, simulator sessions, and supervised line operations. An airline must also establish manuals and standard operating procedures that are compatible with regulatory requirements and the aircraft's design. Commonality with aircraft already in service may simplify some tasks, but it does not eliminate the need for a structured training program.",
+      "zh": "飛航組員需要符合該機型及個人既有資格的訓練，可能包括地面學科、程序訓練、模擬機課程與監督下的航線操作。航空公司也須建立符合監管要求及飛機設計的手冊與標準作業程序。與既有機隊的共通性雖能簡化部分工作，卻不能省略有系統的訓練。"
+    },
+    {
+      "en": "Maintenance preparation begins well before aircraft arrival. Engineers and technicians need access to documentation, specialized tools, spare parts, and approved maintenance programs. The airline must understand how the new type will fit into its existing facilities and how technical problems will be handled away from its main base. Even a small shortage of a critical component can affect flight schedules.",
+      "zh": "維修準備在飛機抵達前很久就開始。工程師和技師需要文件、專用工具、備用零件及核准的維修計畫。公司也必須確認新機型如何適應現有設施，以及在主要基地以外發生技術問題時如何處理。即使少量關鍵零件短缺，也可能影響航班時刻。"
+    },
+    {
+      "en": "Airport compatibility is another important consideration. Aircraft dimensions, maximum weight, pavement strength, gate geometry, servicing equipment, and rescue capabilities may limit where a new type can operate. Route planners must also study range, payload, weather conditions, and the expected number of passengers. The most advanced aircraft is not necessarily the best choice for every destination.",
+      "zh": "機場相容性同樣重要。機身尺寸、最大重量、鋪面承載強度、登機門空間、地面服務設備和救援能力，都可能限制新機型的使用機場。航線規劃人員還要評估航程、酬載、氣象與預期旅客量。最先進的飛機不一定是每個目的地的最佳選擇。"
+    },
+    {
+      "en": "A new fleet can create opportunities for lower fuel consumption, new routes, and improved passenger experience. At the same time, it adds financial and operational risks during the transition. Airlines therefore often introduce the aircraft progressively rather than changing their entire operation at once.",
+      "zh": "新機隊可能降低耗油量、開闢新航線並提升旅客體驗；但轉換期間也伴隨財務與營運風險。因此航空公司通常逐步導入新機型，而不會一次全面更換。"
+    },
+    {
+      "en": "For future pilots, fleet introduction provides a useful lesson about teamwork. A safe and reliable passenger flight is the visible result of many specialists coordinating behind the scenes. Standardization, training, and careful preparation make an ambitious technological change manageable.",
+      "zh": "對未來的機師而言，機隊導入是很好的團隊合作教材。安全可靠的載客飛行，是眾多專業人員在幕後協調的成果。標準化、訓練與周密準備，才能讓雄心勃勃的技術轉變變得可控。"
+    }
+  ]
+}

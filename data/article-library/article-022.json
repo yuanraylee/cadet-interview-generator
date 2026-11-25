@@ -1,0 +1,30 @@
+{
+  "id": "article-022",
+  "title": "High-Lift Devices During Takeoff and Landing",
+  "category": "PHAK · Aircraft Systems",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 6, pp. 6-8–6-10; Chapter 5, pp. 5-49–5-50",
+  "paragraphs": [
+    {
+      "en": "Airplane wings are designed to perform across several flight conditions, but the shape best suited to efficient cruising is not necessarily ideal for a low-speed approach. High-lift devices help solve this problem by changing the wing's aerodynamic characteristics when pilots need additional lift at relatively low speeds.",
+      "zh": "機翼需要在多種飛行條件下運作，但最適合高效率巡航的形狀，不一定適合低速進場。高升力裝置能改變機翼的空氣動力特性，使飛機在較低速度需要額外升力時仍能運作。"
+    },
+    {
+      "en": "Trailing-edge flaps are common high-lift devices. Depending on their design and setting, extending flaps changes the wing's effective camber and often increases its maximum lift coefficient. This may reduce the speed required for a given flight condition, although drag also increases. Different flap settings are therefore used for takeoff and landing according to the aircraft's approved procedures.",
+      "zh": "後緣襟翼是常見的高升力裝置。依設計與設定不同，放下襟翼會改變有效翼型彎度，並常提高最大升力係數。這可能降低特定飛行條件下的所需速度，但阻力也會增加。因此起飛與落地使用不同襟翼設定，並應依飛機核准程序操作。"
+    },
+    {
+      "en": "Leading-edge devices, such as slats, can help delay airflow separation at higher angles of attack. They are particularly useful on aircraft designed to cruise efficiently at high speed. Some large aircraft combine several types of high-lift devices to balance takeoff performance, approach speed, drag, and controllability.",
+      "zh": "前緣裝置（如前緣縫翼）有助延緩高攻角時的氣流分離，對設計為高速巡航的飛機特別有用。有些大型飛機結合多種高升力裝置，以平衡起飛性能、進場速度、阻力及操縱性。"
+    },
+    {
+      "en": "These systems introduce important operating limitations. Crews must respect published flap speeds and monitor the aircraft's configuration. A failure or disagreement in the high-lift system may require revised performance calculations, a different approach speed, and the appropriate checklist.",
+      "zh": "這些系統也帶來操作限制。機組必須遵守公布的襟翼速度限制並監控構型。如果高升力系統故障或指示不一致，可能需要重新計算性能、調整進場速度並執行適當檢查表。"
+    },
+    {
+      "en": "High-lift devices illustrate a basic engineering trade-off: an airplane must operate safely and efficiently at different speeds, and a changeable wing configuration can help meet those competing requirements.",
+      "zh": "高升力裝置反映一項基本工程取捨：飛機必須在不同速度下安全且有效率地飛行，可調整的機翼構型有助於兼顧彼此衝突的需求。"
+    }
+  ]
+}

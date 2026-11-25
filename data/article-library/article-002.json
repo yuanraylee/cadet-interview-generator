@@ -1,0 +1,34 @@
+{
+  "id": "article-002",
+  "title": "Turboprop and Turbofan Aircraft: Different Solutions to Flight",
+  "category": "Aircraft Comparison",
+  "bank": "primary",
+  "reviewStatus": "legacy-imported",
+  "source": "",
+  "paragraphs": [
+    {
+      "en": "When airlines select aircraft for a route, they consider much more than passenger capacity. Distance, runway length, fuel use, cruising speed, and airport infrastructure all influence the decision. Two common powerplant arrangements, turboprop and turbofan, illustrate how different engineering choices can be useful for different missions.",
+      "zh": "航空公司為航線選擇機型時，考量的不只是載客量，還包括航程、跑道長度、耗油量、巡航速度及機場設施。渦輪螺旋槳與渦輪扇發動機這兩種常見動力配置，說明不同工程方案如何符合不同營運任務。"
+    },
+    {
+      "en": "A turboprop engine uses a gas turbine to turn a propeller, usually through a reduction gearbox. Although the engine contains turbine components, much of the forward thrust comes from the propeller moving a large mass of air. Turboprop aircraft are frequently used on shorter routes, where lower cruising speeds may be acceptable and fuel efficiency at appropriate altitudes and speeds can be attractive. Their performance can also be valuable at some smaller airports, although actual takeoff and landing limits remain aircraft-specific.",
+      "zh": "渦輪螺旋槳發動機利用燃氣渦輪帶動螺旋槳，通常透過減速齒輪箱傳動。雖然引擎含有渦輪元件，但相當大比例的前進推力來自螺旋槳推動大量空氣。這類飛機常用於較短航線，因為較低的巡航速度可以接受，且在合適的高度與速度下具備具吸引力的燃油效率。其性能也可能適合部分小型機場，但實際起降限制仍依個別機型而定。"
+    },
+    {
+      "en": "A turbofan engine also contains a gas turbine, but it drives a large fan at the front. In many modern airliners, a substantial portion of the thrust comes from the airflow passing around the engine core. This arrangement helps turbofan aircraft operate efficiently at the higher cruise speeds and altitudes typical of medium- and long-distance airline service. The engine, wing, and airframe are designed together to meet the mission requirements.",
+      "zh": "渦輪扇發動機也使用燃氣渦輪，卻是驅動前方的大型風扇。許多現代客機的推力有相當部分來自繞過引擎核心的氣流。這使渦輪扇飛機能在中長程航線常見的較高巡航速度與高度下有效運作。引擎、機翼與機身必須共同設計，才能符合任務要求。"
+    },
+    {
+      "en": "It would be incorrect to claim that one propulsion system is always better. On a short regional sector, an aircraft with a slower cruise speed may still offer a competitive total journey time because climb, descent, taxi, and airport operations occupy a significant share of the flight. On a much longer sector, higher cruise speed can become increasingly important for scheduling and aircraft utilization.",
+      "zh": "不能斷言某一種推進系統永遠較優。短程區域航段中，巡航較慢的飛機仍可能擁有具競爭力的全程時間，因為爬升、下降、滑行與機場作業占了不小比重。航程愈長，較高巡航速度對班表與飛機使用效率就可能愈重要。"
+    },
+    {
+      "en": "Pilots also encounter different operating characteristics. Propeller effects, engine indications, performance planning, and abnormal procedures vary by aircraft type. Even aircraft that perform the same commercial task may require different techniques and training.",
+      "zh": "機師也會面對不同的操作特性。螺旋槳效應、引擎指示、性能規劃及異常程序會隨機型而異。即使執行相同商業運輸任務，不同飛機仍可能需要不同技術與訓練。"
+    },
+    {
+      "en": "The broader lesson is that aircraft design is a series of trade-offs. An aircraft that excels on one route may be poorly matched to another. Understanding why an airline chooses a particular aircraft helps connect aerodynamics and engineering to the economic realities of commercial aviation.",
+      "zh": "更深一層的道理是，飛機設計是一連串權衡取捨。某條航線表現出色的飛機，不一定適合另一條。理解航空公司為何選用特定機型，有助於把空氣動力、工程設計與商業航空的經濟現實連結起來。"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "description": "Offline article collection. Each article contains aligned EN and Traditional Chinese paragraphs.",
+  "articles": [
+    {
+      "id": "article-001",
+      "file": "article-001.json",
+      "title": "Why an Aircraft Can Stall at Different Airspeeds",
+      "category": "PHAK / Aerodynamics"
+    },
+    {
+      "id": "article-002",
+      "file": "article-002.json",
+      "title": "Turboprop and Turbofan Aircraft: Different Solutions to Flight",
+      "category": "Aircraft Comparison"
+    },
+    {
+      "id": "article-003",
+      "file": "article-003.json",
+      "title": "What Makes Wind Shear Dangerous Near the Ground?",
+      "category": "Aviation Science"
+    },
+    {
+      "id": "article-004",
+      "file": "article-004.json",
+      "title": "How Airlines Plan for the Arrival of a New Aircraft Type",
+      "category": "Aviation Industry"
+    },
+    {
+      "id": "article-005",
+      "file": "article-005.json",
+      "title": "Why Global Supply Chains Depend on Reliable Transport",
+      "category": "Global Affairs / Economics"
+    },
+    {
+      "id": "article-006",
+      "file": "article-006.json",
+      "title": "The Three Axes of Aircraft Motion",
+      "category": "PHAK · Aerodynamics"
+    },
+    {
+      "id": "article-007",
+      "file": "article-007.json",
+      "title": "Why Aircraft Use Composite Materials",
+      "category": "PHAK · Aircraft Structure"
+    },
+    {
+      "id": "article-008",
+      "file": "article-008.json",
+      "title": "What Happens When a Cold Front Arrives?",
+      "category": "PHAK · Weather"
+    },
+    {
+      "id": "article-009",
+      "file": "article-009.json",
+      "title": "How the Pitot-Static System Works",
+      "category": "PHAK · Flight Instruments"
+    },
+    {
+      "id": "article-010",
+      "file": "article-010.json",
+      "title": "Crew Resource Management in Practice",
+      "category": "PHAK · Human Factors"
+    },
+    {
+      "id": "article-011",
+      "file": "article-011.json",
+      "title": "The Difference Between Parasite and Induced Drag",
+      "category": "PHAK · Aerodynamics"
+    },
+    {
+      "id": "article-012",
+      "file": "article-012.json",
+      "title": "Critical Angle of Attack and the Meaning of a Stall",
+      "category": "PHAK · Aerodynamics"
+    },
+    {
+      "id": "article-013",
+      "file": "article-013.json",
+      "title": "How Radar Helps Pilots Understand Weather",
+      "category": "PHAK · Weather"
+    },
+    {
+      "id": "article-014",
+      "file": "article-014.json",
+      "title": "What Happens During a Turbine Engine Flameout?",
+      "category": "PHAK · Aircraft Systems"
+    },
+    {
+      "id": "article-015",
+      "file": "article-015.json",
+      "title": "Why the Center of Gravity Matters",
+      "category": "PHAK · Weight and Balance"
+    },
+    {
+      "id": "article-016",
+      "file": "article-016.json",
+      "title": "How Runways Receive Their Numbers",
+      "category": "PHAK · Airport Operations"
+    },
+    {
+      "id": "article-017",
+      "file": "article-017.json",
+      "title": "Why Wake Turbulence Matters on Approach",
+      "category": "PHAK · Aerodynamics"
+    },
+    {
+      "id": "article-018",
+      "file": "article-018.json",
+      "title": "Four Ways Aviation Weather Is Observed",
+      "category": "PHAK · Weather"
+    },
+    {
+      "id": "article-019",
+      "file": "article-019.json",
+      "title": "When a Pitot or Static Source Becomes Blocked",
+      "category": "PHAK · Flight Instruments"
+    },
+    {
+      "id": "article-020",
+      "file": "article-020.json",
+      "title": "How Checklists Support Safe Flight",
+      "category": "PHAK · Human Factors"
+    },
+    {
+      "id": "article-021",
+      "file": "article-021.json",
+      "title": "Weight and Balance Before Departure",
+      "category": "PHAK · Aircraft Performance"
+    },
+    {
+      "id": "article-022",
+      "file": "article-022.json",
+      "title": "High-Lift Devices During Takeoff and Landing",
+      "category": "PHAK · Aircraft Systems"
+    },
+    {
+      "id": "article-023",
+      "file": "article-023.json",
+      "title": "What a Pilot Learns from a GPS Position",
+      "category": "PHAK · Navigation"
+    },
+    {
+      "id": "article-024",
+      "file": "article-024.json",
+      "title": "Surface, Upper-Air, Radar and Satellite Weather Data",
+      "category": "PHAK · Weather"
+    },
+    {
+      "id": "article-025",
+      "file": "article-025.json",
+      "title": "Why a Slow Aircraft Can Produce More Induced Drag",
+      "category": "PHAK · Aerodynamics"
+    },
+    {
+      "id": "article-026",
+      "file": "article-026.json",
+      "title": "Why Airport Runway Markings Matter",
+      "category": "PHAK · Airport Operations"
+    },
+    {
+      "id": "article-027",
+      "file": "article-027.json",
+      "title": "Why Temperature and Pressure Affect Performance",
+      "category": "PHAK · Aviation Weather"
+    }
+  ]
+}

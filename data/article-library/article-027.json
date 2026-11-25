@@ -1,0 +1,30 @@
+{
+  "id": "article-027",
+  "title": "Why Temperature and Pressure Affect Performance",
+  "category": "PHAK · Aviation Weather",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 4, pp. 4-3–4-5; Chapter 12, pp. 12-3–12-6",
+  "paragraphs": [
+    {
+      "en": "Aircraft performance depends strongly on the density of the surrounding air. Air density changes with pressure, temperature, and moisture. When pressure decreases or temperature increases, the air generally becomes less dense. These conditions can reduce the performance margins available for takeoff and climb.",
+      "zh": "飛機性能高度依賴周圍空氣的密度。空氣密度會隨氣壓、溫度與濕度變化。當氣壓降低或氣溫升高，空氣一般會變得較稀薄，可能減少起飛與爬升時可用的性能裕度。"
+    },
+    {
+      "en": "Density altitude is a useful way to describe the effect of atmospheric conditions. It is pressure altitude corrected for nonstandard temperature. At a high density altitude, an aircraft may behave as though it were operating at a higher altitude than its actual elevation. For many aircraft, this can mean less engine power, reduced propeller efficiency, or less lift at a given true airspeed and angle of attack.",
+      "zh": "密度高度用來描述大氣條件的影響，即對非標準溫度進行修正後的壓力高度。密度高度高時，飛機的表現可能如同在高於實際場站標高的高度操作。對許多飛機來說，可能意味引擎功率較低、螺旋槳效率下降，或在給定真空速與攻角下升力較少。"
+    },
+    {
+      "en": "A hot day at an elevated airport deserves particular attention because both temperature and field elevation can contribute to high density altitude. Pilots therefore consult the aircraft's performance information rather than assuming that a runway is adequate simply because it has been used successfully before.",
+      "zh": "在海拔較高的機場遇到炎熱天氣尤其需要注意，因為氣溫與機場標高都可能使密度高度偏高。因此機師應查閱機型性能資料，而不是因為過去曾在某條跑道成功起飛，就認定當下跑道長度必定足夠。"
+    },
+    {
+      "en": "Atmospheric pressure is also relevant to altimeter settings. The aircraft's indicated altitude depends on the reference pressure selected, so crews must use the correct setting for their operating environment and flight level.",
+      "zh": "大氣壓力也與高度表設定有關。飛機顯示的高度取決於選用的參考氣壓，因此機組必須依操作環境與飛航空層使用正確的設定。"
+    },
+    {
+      "en": "The operational lesson is that weather is not only about storms or poor visibility. Even clear skies can accompany conditions that change takeoff distance, climb capability, and the meaning of instrument indications.",
+      "zh": "實務上的教訓是：氣象不只是雷暴或能見度差的問題。即使天空晴朗，大氣條件仍可能改變起飛距離、爬升能力，以及儀表指示所代表的意義。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "article-009",
+  "title": "How the Pitot-Static System Works",
+  "category": "PHAK · Flight Instruments",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 8, pp. 8-1–8-11",
+  "paragraphs": [
+    {
+      "en": "The pitot-static system supplies pressure information to several important flight instruments. A pitot tube measures total, or impact, pressure as an aircraft moves through the air. Static ports measure the surrounding atmospheric pressure. The airspeed indicator compares these pressures to display indicated airspeed.",
+      "zh": "皮托靜壓系統向多種重要飛行儀表提供氣壓資訊。飛機在空氣中移動時，皮托管測量總壓；靜壓孔測量周圍的大氣靜壓。空速表藉由比較這兩種壓力，顯示指示空速。"
+    },
+    {
+      "en": "Static pressure is also used by the altimeter and vertical speed indicator. The altimeter relates pressure to altitude, while the vertical speed indicator responds to changes in static pressure over time. Because these instruments depend on pressure, blockages and leaks can create misleading indications.",
+      "zh": "高度表和垂直速度表也使用靜壓。高度表依氣壓推算高度；垂直速度表則回應靜壓隨時間的變化。由於這些儀表仰賴壓力訊號，阻塞或洩漏可能造成誤導性的讀數。"
+    },
+    {
+      "en": "For example, a blocked pitot opening may affect the airspeed indicator, while a blocked static source may influence several instruments at once. The exact indications depend on the type and location of the blockage.",
+      "zh": "例如，皮托管入口阻塞可能影響空速表，而靜壓來源阻塞則可能同時影響多項儀表。實際出現的指示取決於阻塞的種類與位置。"
+    },
+    {
+      "en": "Pilots learn to cross-check information rather than trusting one indication in isolation. Understanding the pressure sources helps them recognize potential instrument failures and apply the procedures specified in their aircraft manuals.",
+      "zh": "機師會交叉核對各項資訊，而不是孤立地相信單一讀數。理解壓力來源有助於辨識潛在的儀表故障，並依據機型手冊執行相應程序。"
+    }
+  ]
+}

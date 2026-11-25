@@ -1,0 +1,533 @@
+/* Minimal polish: preserve established website typography and original card colors. */
+/* Native, quiet disclosures: the content remains in normal flow. */
+.reading-tools {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-top: 1px solid #e5e5e7;
+}
+.reading-tools .disclosure-row, .answer-disclosure {
+  width: 100%;
+  min-height: 42px;
+  height: auto;
+  padding: 10px 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border: 0;
+  border-bottom: 1px solid #e9e9eb;
+  border-radius: 0;
+  color: #28282b;
+  background: transparent;
+  text-align: left;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 170ms ease;
+}
+.reading-tools .disclosure-row:hover,.answer-disclosure:hover {
+  background: rgba(35,35,35,.035);
+}
+.reading-tools .disclosure-row:active,.answer-disclosure:active {
+  background: rgba(35,35,35,.075);
+}
+.chevron {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: #737373;
+  transition: transform 180ms ease;
+}
+[aria-expanded="true"] > .chevron {
+  transform: rotate(180deg);
+}
+.reading-panel {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+  padding: 14px 4px 8px;
+}
+.reading-panel[hidden],.answer[hidden] {
+  display: none !important;
+}
+/* No permanent word marker: only an understated hover/focus response. */
+#articleBody .article-word, #articleBody .article-word:visited {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 2px;
+  color: inherit;
+  background: transparent;
+  text-decoration: none;
+  font: inherit;
+  line-height: inherit;
+  box-shadow: none;
+  cursor: pointer;
+  transition: color 160ms ease,background-color 160ms ease;
+}
+#articleBody .article-word:hover {
+  color: #111;
+  background: rgba(30,30,30,.13);
+}
+#articleBody .article-word:active {
+  background: rgba(30,30,30,.20);
+}
+#articleBody .article-word:focus-visible {
+  outline: 2px solid #5c5c5f;
+  outline-offset: 2px;
+  background: rgba(30,30,30,.10);
+}
+/* Generate and 產生題目 must have exactly the same compact text style. */
+#generate {
+  min-height: 46px;
+  height: 46px;
+  padding: 0 18px;
+  border-radius: 12px;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+#generate span, #generate span[data-i18n="generate"] {
+  font-family: inherit;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+#generate span[aria-hidden="true"] {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+.answer-disclosure {
+  margin-top: 8px;
+}
+.atcItem .answer,.question-list li .answer {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+}
+.atc-teaching-refined .readback-main {
+  font-size: 13px;
+  line-height: 1.65;
+  font-weight: 600;
+  padding: 5px 0 11px;
+}
+.atc-teaching-refined h4 {
+  text-transform: none;
+  letter-spacing: 0;
+}
+.atc-subdetail {
+  border-top: 1px solid #e8e8e8;
+}
+.atc-subdetail summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 42px;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.atc-subdetail summary::-webkit-details-marker {
+  display: none;
+}
+.atc-subdetail summary .sub-chevron {
+  color: #888;
+  font-size: 17px;
+  transition: transform 180ms ease;
+}
+.atc-subdetail[open] summary .sub-chevron {
+  transform: rotate(180deg);
+}
+.atc-subdetail-body {
+  padding: 2px 0 10px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.atc-subdetail-body p {
+  margin: 3px 0 10px;
+}
+.atc-subdetail-body .mini-heading {
+  font-size: 11px;
+  color: #666;
+  font-weight: 650;
+}
+.atc-teaching-refined .atc-source-mini {
+  font-size: 10px;
+  color: #888;
+}
+/* Remove vocabulary UI without breaking the legacy rendering API. */
+#vocabularyToggle,#vocabularyPanel {
+  display: none !important;
+}
+@media (prefers-reduced-motion:reduce) {
+  .chevron,.sub-chevron,.disclosure-row,.answer-disclosure,#articleBody .article-word {
+    transition: none !important;
+  }
+}
+@media print {
+  .reading-tools,.answer-disclosure {
+    display: none !important;
+  }
+  #articleBody .article-word {
+    color: inherit !important;
+    background: transparent !important;
+  }
+  .atc-subdetail {
+    display: none !important;
+  }
+}
+/* V8: small, consistent eye controls. Restore original button-first UX. */
+.eye-control, .reading-tools #translationToggle {
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 11px;
+  background: #f7f7f7;
+  color: #555;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: none;
+  transition: background-color 150ms ease,color 150ms ease,border-color 150ms ease,transform 130ms ease;
+}
+.eye-control:hover, .reading-tools #translationToggle:hover {
+  background: #eaeaea;
+  color: #151515;
+  border-color: #d2d2d2;
+}
+.eye-control:active, .reading-tools #translationToggle:active {
+  transform: scale(.95);
+}
+.eye-control[aria-expanded="true"],.reading-tools #translationToggle[aria-expanded="true"] {
+  background: #161616;
+  color: #fff;
+  border-color: #161616;
+}
+.eye-control:focus-visible {
+  outline: 2px solid #666;
+  outline-offset: 3px;
+}
+.eye-glyph {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+/* Override old full-width answer accordion entirely. */
+.answer-disclosure.eye-control {
+  width: 35px;
+  min-height: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  border-radius: 11px;
+  flex: 0 0 35px;
+}
+.question-list .item-head,.atcItem .item-head {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.question-list .item-body,.atcItem .atcMeta {
+  flex: 1;
+  min-width: 0;
+}
+.atcItem .item-head {
+  align-items: center;
+}
+.reading-tools {
+  display: block;
+  margin-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+.translation-control-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 54px;
+  padding: 9px 0;
+}
+.translation-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #28282b;
+}
+#translationPanel {
+  padding: 10px 0 14px;
+  border-top: 1px solid #eee;
+}
+/* Tiny subcontrols maintain content visibility without occupying extra rows. */
+.atc-subdetail {
+  border-top: 1px solid #ededed;
+  padding-top: 4px;
+  margin-top: 4px;
+}
+.atc-subdetail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 46px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #383838;
+}
+.atc-subdetail .atc-subdetail-body {
+  padding: 6px 0 10px;
+}
+.atc-subdetail .atc-subdetail-body[hidden] {
+  display: none !important;
+}
+.atc-subdetail .eye-control {
+  width: 30px;
+  height: 30px;
+  flex-basis: 30px;
+  border-radius: 9px;
+}
+.atc-subdetail .eye-glyph {
+  width: 15px;
+  height: 15px;
+}
+@media (prefers-reduced-motion:reduce) {
+  .eye-control {
+    transition: none !important;
+  }
+}
+@media print {
+  .eye-control,.translation-control-row {
+    display: none !important;
+  }
+  .atc-subdetail .atc-subdetail-body[hidden] {
+    display: none !important;
+  }
+}
+/* V9: strict alignment rhythm and content-safe margins. */
+:root {
+  --ui-space: 8px;
+  --ui-control-height: 50px;
+  --ui-inline-gutter: 20px;
+}
+/* The browser sizes the control and the button from one shared rule. */
+.controls {
+  align-items: end;
+}
+.controls .control select, .controls #generate {
+  box-sizing: border-box;
+  height: var(--ui-control-height);
+  min-height: var(--ui-control-height);
+  max-height: var(--ui-control-height);
+  margin: 0;
+  align-self: end;
+}
+.controls #generate {
+  font-size: 13px;
+  font-weight: 700;
+}
+.controls #generate span[data-i18n="generate"] {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+/* Protect readable text from the border: earlier #translationPanel rule erased inline padding. */
+#translationPanel.reading-panel {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 20px var(--ui-inline-gutter) 22px;
+  margin: 8px 0 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+#translationPanel.reading-panel h3 {
+  margin: 0 0 14px;
+  line-height: 1.4;
+}
+#translationPanel.reading-panel p {
+  margin: 0 0 14px;
+  padding: 0;
+  line-height: 1.8;
+}
+#translationPanel.reading-panel p:last-child {
+  margin-bottom: 0;
+}
+#translationPanel.reading-panel .study-note {
+  margin-right: 5px;
+}
+/* Use the same horizontal safety zone inside every answer card. */
+.atcItem .answer, .question-list li .answer {
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.atc-teaching-refined {
+  min-width: 0;
+}
+/* ATC: eye only on the outer answer. Inner details use centered, restrained chevrons. */
+.atc-subdetail-heading {
+  min-height: 42px;
+  gap: 12px;
+}
+.atc-chevron-control {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #777;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background-color .16s ease,color .16s ease;
+}
+.atc-chevron-control:hover {
+  background: #ececec;
+  color: #222;
+}
+.atc-chevron-control:active {
+  background: #e4e4e4;
+}
+.atc-chevron-glyph {
+  display: block;
+  width: 15px;
+  height: 15px;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: transform 170ms ease;
+  pointer-events: none;
+}
+.atc-chevron-control[aria-expanded="true"] .atc-chevron-glyph {
+  transform: rotate(180deg);
+}
+/* Mouse clicks should not draw a heavy ring; retain a quiet visible keyboard focus. */
+.eye-control:focus:not(:focus-visible),.atc-chevron-control:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+.eye-control:focus-visible,.atc-chevron-control:focus-visible {
+  outline: 2px solid #777;
+  outline-offset: 2px;
+}
+@media (max-width:690px) {
+  :root {
+    --ui-inline-gutter: 16px;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .atc-chevron-control,.atc-chevron-glyph {
+    transition: none !important;
+  }
+}
+/* V10: Translation uses the same gray outer / white expanded inner card language as ATC. */
+.reading-tools {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 0;
+  min-width: 0;
+}
+.reading-tools .translation-card {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  border: 1px solid #ededed;
+  border-radius: 18px;
+  padding: 16px 18px;
+}
+.reading-tools .translation-control-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 38px;
+  padding: 0;
+}
+.reading-tools .translation-label {
+  color: #303030;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+.reading-tools .translation-card #translationPanel.reading-panel {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  max-height: none;
+  margin: 14px 0 0;
+  padding: 19px 20px 21px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  box-shadow: none;
+  overflow: visible;
+  overflow-wrap: break-word;
+}
+.reading-tools .translation-card #translationPanel[hidden] {
+  display: none !important;
+}
+.reading-tools .translation-card #translationPanel h3 {
+  margin: 0 0 15px;
+}
+.reading-tools .translation-card #translationPanel p {
+  margin: 0 0 16px;
+  line-height: 1.85;
+}
+.reading-tools .translation-card #translationPanel p:last-child {
+  margin-bottom: 0;
+}
+.reading-tools .translation-card #translationPanel .study-note {
+  color: #828282;
+  margin-right: 6px;
+}
+@media (max-width: 690px) {
+  .reading-tools .translation-card {
+    padding: 13px 14px;
+    border-radius: 15px;
+  }
+  .reading-tools .translation-card #translationPanel.reading-panel {
+    padding: 16px;
+    border-radius: 12px;
+  }
+}
+@media print {
+  .reading-tools .translation-card {
+    background: transparent;
+    border: 0;
+    padding: 0;
+  }
+}

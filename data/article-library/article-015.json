@@ -1,0 +1,26 @@
+{
+  "id": "article-015",
+  "title": "Why the Center of Gravity Matters",
+  "category": "PHAK · Weight and Balance",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 10, pp. 10-1–10-4",
+  "paragraphs": [
+    {
+      "en": "An aircraft's center of gravity is the point at which its weight can be considered to act. The location of that point depends on how passengers, baggage, fuel, and other loads are distributed. Aircraft manufacturers establish allowable center-of-gravity limits to protect handling and stability characteristics.",
+      "zh": "飛機重心是可以視為整架飛機重量作用的點，其位置取決於旅客、行李、燃油及其他載荷的分布。製造商會訂定允許的重心範圍，以維護操縱與穩定特性。"
+    },
+    {
+      "en": "A center of gravity too far forward can require greater control force to raise the nose and may affect landing or takeoff performance. A center of gravity too far aft can reduce longitudinal stability and make stall recovery more difficult. The precise effects depend on the particular aircraft and its configuration.",
+      "zh": "重心過於靠前，可能需要較大的操縱力才能抬起機鼻，也可能影響起降性能。重心過於靠後，則可能降低縱向穩定性，使失速恢復更加困難。具體影響仍取決於機型及構型。"
+    },
+    {
+      "en": "Weight and balance planning therefore involves two questions: Is the total weight within the applicable limits, and is that weight distributed so that the center of gravity remains in the approved range? A flight can be within its maximum weight yet still be improperly balanced.",
+      "zh": "重量與平衡規劃因此要回答兩個問題：總重量是否在核准範圍內？載荷分布是否使重心維持於允許範圍？飛機即使沒有超重，仍可能出現不安全的配重。"
+    },
+    {
+      "en": "For pilots and dispatchers, correct loading calculations are part of operational safety. The purpose is not merely to satisfy paperwork but to ensure the aircraft can be controlled within its published limitations.",
+      "zh": "對機師與簽派員而言，正確載重計算是營運安全的一環。目的不只是完成文件，而是確保飛機能在公布的限制內受到控制。"
+    }
+  ]
+}

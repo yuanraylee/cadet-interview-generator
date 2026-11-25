@@ -1,0 +1,26 @@
+{
+  "id": "article-007",
+  "title": "Why Aircraft Use Composite Materials",
+  "category": "PHAK · Aircraft Structure",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 3, pp. 3-9–3-12",
+  "paragraphs": [
+    {
+      "en": "Aircraft designers increasingly use composite materials in structures such as wings, fuselages, and control surfaces. A composite combines two or more materials to achieve properties that may be difficult to obtain from one material alone. Many aircraft composites use strong fibers embedded in a resin matrix. The fibers carry much of the load, while the matrix keeps them in the required shape.",
+      "zh": "飛機設計者愈來愈常在機翼、機身與操縱面等結構使用複合材料。複合材料結合兩種以上材料，以獲得單一材料難以具備的特性。許多航空用複合材料將高強度纖維嵌入樹脂基材；纖維承受大部分載荷，樹脂則固定其形狀。"
+    },
+    {
+      "en": "Carbon fiber and fiberglass are common examples. Composites can provide high strength relative to their weight and allow engineers to produce smooth, complex shapes. These advantages can support aerodynamic efficiency and structural design.",
+      "zh": "碳纖維與玻璃纖維是常見例子。複合材料能提供良好的強度重量比，並讓工程師製作平滑且複雜的形狀，有助於空氣動力效率與結構設計。"
+    },
+    {
+      "en": "However, composites also create maintenance challenges. Certain damage may be difficult to identify by visual inspection alone. Repairs can require specialized methods, training, and environmental controls. Aircraft structures must also address lightning protection, particularly where the material conducts electricity differently from aluminum.",
+      "zh": "不過複合材料也增加維修挑戰。有些損傷不容易僅靠外觀檢查發現，修復可能需要專門方法、訓練與環境控制。由於材料的導電特性與鋁不同，飛機結構也必須處理雷擊防護。"
+    },
+    {
+      "en": "A lighter structure is useful, but safety depends on correct design, inspection, and maintenance throughout an aircraft's service life.",
+      "zh": "較輕的結構固然有利，但飛機全壽期的安全仍取決於適當的設計、檢查與維護。"
+    }
+  ]
+}

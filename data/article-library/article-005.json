@@ -1,0 +1,34 @@
+{
+  "id": "article-005",
+  "title": "Why Global Supply Chains Depend on Reliable Transport",
+  "category": "Global Affairs / Economics",
+  "bank": "primary",
+  "reviewStatus": "legacy-imported",
+  "source": "",
+  "paragraphs": [
+    {
+      "en": "A modern product may contain materials and components produced in several countries. A single manufacturer might obtain electronic parts from one region, assemble the final product in another, and sell it to customers across the world. This arrangement can reduce costs and improve access to specialized expertise, but it also makes production dependent on international transportation networks.",
+      "zh": "現代產品可能包含來自多國的材料與零件。製造商可能從一地採購電子零件、在另一地組裝成品，再銷售到世界各地。這種安排有助降低成本、取得專業技術，但也讓生產依賴國際運輸網絡。"
+    },
+    {
+      "en": "Sea freight carries much of the world's physical trade because it can move large volumes at relatively low cost. Air freight plays a different role. It is often selected for goods that are time-sensitive, valuable relative to their weight, or costly to keep in inventory. Medical equipment, electronic components, and urgent replacement parts may all benefit from fast delivery, although transport choices depend on the specific product and market.",
+      "zh": "海運能以相對低廉的成本運送大量貨物，因此承擔全球實體貿易的重要部分。空運的角色不同，通常用於時間敏感、單位重量價值高，或庫存成本高的商品。醫療器材、電子零件和緊急替換零件可能受益於快速運送，但仍須依產品與市場情況選擇運輸方式。"
+    },
+    {
+      "en": "Supply chains become vulnerable when an important route or transport hub is disrupted. Extreme weather, geopolitical tensions, labor disputes, or infrastructure failures may delay shipments. A disruption at one location can create consequences elsewhere because factories may rely on components arriving in a particular sequence. Businesses with little spare inventory can be especially sensitive to these delays.",
+      "zh": "重要航線或運輸樞紐一旦中斷，供應鏈便容易受到衝擊。極端天氣、地緣政治緊張、勞資爭議或基礎設施故障，都可能延誤貨運。由於工廠可能仰賴零件依特定順序抵達，一地中斷會波及其他地區；庫存緩衝不足的企業尤其脆弱。"
+    },
+    {
+      "en": "Companies respond to uncertainty in different ways. Some diversify their suppliers, while others keep larger inventories of critical components. They may establish alternative transport routes or move part of their production closer to customers. Each response involves trade-offs. Holding more inventory ties up money, and relocating production may introduce new costs or risks.",
+      "zh": "企業會以不同方式回應不確定性：有的分散供應商，有的增加關鍵零件庫存，也可能建立替代路線或將部分生產移近客戶。這些作法都有取捨。增加庫存會占用資金，遷移生產也可能帶來新成本與風險。"
+    },
+    {
+      "en": "Governments also have an interest in transport resilience. Airports, ports, customs systems, and digital logistics networks influence whether trade can move efficiently. Investments in infrastructure may improve reliability, but they take time and require careful planning.",
+      "zh": "政府也重視運輸體系的韌性。機場、港口、海關系統與數位物流網路都影響貨物流通效率。基礎建設投資可能提高可靠性，但需要時間及審慎規劃。"
+    },
+    {
+      "en": "For aviation students, this topic explains why airlines are connected to broader economic events. Passenger demand, cargo volumes, fuel prices, and international rules can all influence airline operations. Understanding these connections helps future pilots see commercial aviation as part of a larger global system rather than as an isolated technical activity.",
+      "zh": "對航空學生而言，這個主題說明航空公司與整體經濟事件息息相關。旅客需求、貨運量、油價與國際規範都可能影響航空營運。理解這些連結，能讓未來機師從更大的全球體系看待商業航空，而非將其視為孤立的技術活動。"
+    }
+  ]
+}

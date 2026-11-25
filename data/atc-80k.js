@@ -13,7 +13,7 @@ const ATC_FAMILIES = [
  }},
  {name:'Departure / Amended Clearance',phase:'departure',make:(x,y,z,c)=>{
   const hd=String(40+x*10).padStart(3,'0'),fl=90+y*10,speed=190+z*5;
-  const fix=['BOLKA','DRAKE','NOMAN','TAMRA','KAPLI'][y%5], code=String((x*157+y*13+z)%4096).split('').join('');
+  const fix=['BOLKA','DRAKE','NOMAN','TAMRA','KAPLI'][y%5];
   return {spoken:`${c}, amended departure clearance, fly heading ${hd} after airborne, climb to flight level ${fl}, maintain ${speed} knots or less, proceed direct ${fix} when instructed, report passing flight level ${fl-20}, expect further routing.`,readback:`Amended clearance, heading ${hd} after airborne, climb FL${fl}, ${speed} knots or less, direct ${fix} when instructed, report passing FL${fl-20}, ${c}.`,fields:[`Amended departure clearance`,`Heading ${hd} after airborne`,`Climb FL${fl}`,`Speed ${speed} knots or less`,`Direct ${fix} when instructed`,`Report passing FL${fl-20}`]};
  }},
  {name:'En-route Descent / Radar Vector',phase:'enroute',make:(x,y,z,c)=>{
@@ -54,20 +54,5 @@ function atcByCatalogId(id,callsign){
  const template=ATC_FAMILIES[family];
  const scenario=template.make(x,y,z,callsign);
  return {...scenario,procedure:template.name,source:'ICAO Doc 9432 (phraseology reference); synthetic scenario, not a published clearance',catalogId:id+1,phase:template.phase,note:'Imaginary route/airspace and clearances. Training only; not for actual flight operations.'};
-}
-function makeAtcSet80k(){
- // Select three distinct phases rather than flooding the exercise with one type.
- const phasePool={departure:[0,1],enroute:[2,3,4],arrival:[5,6,7]};
- const callsigns=mix(CALLSIGNS).slice(0,3);
- const selected=['departure','enroute','arrival'].map(phase=>{
-  const family=pick(phasePool[phase]);
-  const id=family*10000+range(0,9999);
-  return {id,phase};
- });
- return mix(selected).map((item,i)=>{
-  const [airline,call]=callsigns[i];
-  const callsign=`${call} ${range(100,899)}`;
-  return {...atcByCatalogId(item.id,callsign),airline,callsign};
- });
 }
 window.CadetAtcCatalog={size:ATC_CATALOG_SIZE,byId:atcByCatalogId};

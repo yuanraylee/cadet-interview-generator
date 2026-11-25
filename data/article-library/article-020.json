@@ -1,0 +1,30 @@
+{
+  "id": "article-020",
+  "title": "How Checklists Support Safe Flight",
+  "category": "PHAK · Human Factors",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 2, Aeronautical Decision-Making; Chapter 14, Airport Operations",
+  "paragraphs": [
+    {
+      "en": "Checklists are an important tool for reducing omissions during aviation operations. They help crews verify that essential tasks have been completed in the correct order or that the aircraft is in the required configuration. In airline operations, the exact format and use of checklists depend on aircraft type and the operator's standard procedures.",
+      "zh": "檢查表是減少航空作業疏漏的重要工具，能協助機組確認關鍵工作已依正確順序完成，或飛機已處於要求的構型。航空公司所用檢查表的形式與使用方式，依機型和業者標準程序而定。"
+    },
+    {
+      "en": "A checklist is not merely a memory test. Crews normally combine their understanding of aircraft systems with established flows and verification steps. The use of challenge-and-response procedures can also support communication by ensuring that important indications and switch positions are checked by the appropriate crew members.",
+      "zh": "檢查表不只是記憶測驗。機組通常會結合對系統的理解、既定操作流程和確認步驟。問答式核對程序也能改善溝通，確保相關組員檢查重要指示與開關位置。"
+    },
+    {
+      "en": "Time pressure can create a temptation to rush. A professional crew must recognize when an interruption, uncertainty, or unexpected indication requires an additional check. Clear communication and defined responsibilities allow tasks to be completed efficiently without sacrificing essential safety barriers.",
+      "zh": "時間壓力容易讓人想要倉促行事。專業機組必須辨識哪些中斷、疑慮或異常指示需要額外確認。清楚溝通與明確分工，才能在維持效率的同時保留必要的安全屏障。"
+    },
+    {
+      "en": "Checklists also support learning from experience. When an organization identifies recurring mistakes or confusing procedures, it can revise training and documentation through an approved process. These improvements must themselves be reviewed and controlled rather than introduced informally.",
+      "zh": "當組織發現反覆發生的錯誤或混淆不清的程序時，也可以透過核准流程修訂訓練及文件。這些改善本身也須經過審查與控制，而不能任意導入。"
+    },
+    {
+      "en": "A good checklist system therefore combines human judgment with standardization. It helps experienced professionals work consistently even when workloads are high and circumstances are changing.",
+      "zh": "完善的檢查表制度結合人類判斷與標準化，協助經驗豐富的專業人員即使在工作繁忙或情境變化時，也能維持一致的表現。"
+    }
+  ]
+}

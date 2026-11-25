@@ -1,0 +1,26 @@
+{
+  "id": "article-010",
+  "title": "Crew Resource Management in Practice",
+  "category": "PHAK · Human Factors",
+  "bank": "extra",
+  "reviewStatus": "legacy-imported",
+  "source": "FAA PHAK, Chapter 2, pp. 2-4 and 2-13–2-15",
+  "paragraphs": [
+    {
+      "en": "Crew Resource Management, or CRM, focuses on using available resources effectively to support safe flight. Those resources include pilots, cabin crew, aircraft systems, procedures, and information from other people such as controllers and dispatchers.",
+      "zh": "機組資源管理（CRM）著重於有效運用可用資源，以維持飛行安全。資源包括駕駛員、客艙組員、飛機系統、作業程序，以及航管員與簽派員等其他人提供的資訊。"
+    },
+    {
+      "en": "Effective CRM does not mean that everyone must agree immediately. It means important concerns are communicated clearly and evaluated respectfully. A first officer who notices an unexpected indication should speak up rather than remain silent. The captain should encourage useful input while maintaining clear responsibility for decisions.",
+      "zh": "有效的 CRM 並不表示所有人都必須立即同意彼此，而是要清楚表達重要疑慮，並以尊重的態度加以評估。當副駕駛發現異常指示時，應主動提出，而非保持沉默；機長則應鼓勵有價值的意見，同時維持決策責任的清楚分工。"
+    },
+    {
+      "en": "Workload management is another part of CRM. During busy phases of flight, crews rely on defined roles, checklists, and concise communication to prevent tasks from being overlooked. The same principles can help a single pilot, who may use automation, air traffic services, and structured decision-making.",
+      "zh": "工作負荷管理也是 CRM 的重要部分。飛行繁忙階段，機組透過明確分工、檢查表與精簡溝通，避免遺漏工作。這些原則也適用於單人駕駛，機師可利用自動化、空中交通服務及結構化決策。"
+    },
+    {
+      "en": "Ultimately, CRM supports a shared understanding of the aircraft's situation and the actions required to operate safely.",
+      "zh": "最終，CRM 幫助機組對飛機的狀況，以及安全操作所需採取的行動，建立共同理解。"
+    }
+  ]
+}
