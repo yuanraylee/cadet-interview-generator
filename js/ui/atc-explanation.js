@@ -364,10 +364,10 @@
       '<path d="m6 9 6 6 6-6"/></svg>';
 
     const itemsHtml = items
-      .map((item, itemIndex) => `
+      .map(item => `
         <li>
           <div class="atc-explain-item">
-            <strong>${itemIndex + 1}. ${escapeText(item.text)}</strong>
+            <strong>${escapeText(item.text)}</strong>
             <p>${escapeText(item.meaning)}</p>
             <p class="atc-reading-mini">Spoken numbers: ${escapeText(item.pronunciation)}</p>
             ${isChinese ? `<p class="atc-zh-note">${escapeText(fieldChinese(item.text))}</p>` : ''}
